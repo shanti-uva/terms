@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180206203623) do
+ActiveRecord::Schema.define(version: 20180220074725) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -121,6 +121,29 @@ ActiveRecord::Schema.define(version: 20180206203623) do
     t.integer "rabjung_end_id"
     t.integer "intercalary_month_end_id"
     t.integer "intercalary_day_end_id"
+  end
+
+  create_table "definition_relations", force: :cascade do |t|
+    t.integer "child_node_id", null: false
+    t.integer "parent_node_id", null: false
+    t.string "ancestor_ids"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "definitions", force: :cascade do |t|
+    t.integer "feature_id", null: false
+    t.integer "language_id", null: false
+    t.boolean "is_public", default: false, null: false
+    t.boolean "is_primary"
+    t.string "ancestor_ids"
+    t.integer "position", default: 0
+    t.text "content", null: false
+    t.integer "author_id"
+    t.integer "numerology"
+    t.string "tense"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "descriptions", force: :cascade do |t|
