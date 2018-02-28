@@ -13,10 +13,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/dictionary_to_terms.git
-  revision: 2f9d45e59bb3e047d97e4471f7bafebf0981f8b7
-  tag: v0.1.6
+  revision: 28a78be364aba12814317d31693a9b48b4899b6c
+  tag: v0.1.7
   specs:
-    dictionary_to_terms (0.1.6)
+    dictionary_to_terms (0.1.7)
       rails (~> 5.1.4)
 
 GIT
@@ -31,10 +31,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/kmaps_engine.git
-  revision: 1096066e98d63058c3ef2d6eea2cb1f3a11a1d13
-  tag: v5.0.4
+  revision: ee18d56242bd55cb4cbdf71d9984d53a1cb8ef2e
+  tag: v5.0.5
   specs:
-    kmaps_engine (5.0.4)
+    kmaps_engine (5.0.5)
       annotate
       coffee-rails (~> 4.2)
       exception_notification
@@ -408,7 +408,7 @@ DEPENDENCIES
   capybara (~> 2.13)
   complex_dates (= 2.2.6)!
   complex_scripts (= 3.0.5)!
-  dictionary_to_terms (= 0.1.6)!
+  dictionary_to_terms (= 0.1.7)!
   dynamic_form
   flare (= 1.2.0)!
   hpricot
@@ -416,7 +416,7 @@ DEPENDENCIES
   jbuilder
   jquery-rails
   jquery-ui-rails
-  kmaps_engine (= 5.0.4)!
+  kmaps_engine (= 5.0.5)!
   listen (>= 3.0.5, < 3.2)
   mms_integration (= 2.3.5)!
   newrelic_rpm
