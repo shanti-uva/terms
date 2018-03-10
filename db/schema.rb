@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180220074725) do
+ActiveRecord::Schema.define(version: 20180310184964) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -62,9 +62,9 @@ ActiveRecord::Schema.define(version: 20180220074725) do
   end
 
   create_table "citations", force: :cascade do |t|
-    t.integer "info_source_id"
-    t.string "citable_type"
-    t.integer "citable_id"
+    t.integer "info_source_id", null: false
+    t.string "citable_type", null: false
+    t.integer "citable_id", null: false
     t.text "notes"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -166,10 +166,10 @@ ActiveRecord::Schema.define(version: 20180220074725) do
   end
 
   create_table "feature_geo_codes", force: :cascade do |t|
-    t.integer "feature_id"
-    t.integer "geo_code_type_id"
+    t.integer "feature_id", null: false
+    t.integer "geo_code_type_id", null: false
     t.integer "timespan_id"
-    t.string "geo_code_value"
+    t.string "geo_code_value", null: false
     t.text "notes"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -300,11 +300,11 @@ ActiveRecord::Schema.define(version: 20180220074725) do
   end
 
   create_table "notes", force: :cascade do |t|
-    t.string "notable_type"
-    t.integer "notable_id"
+    t.string "notable_type", null: false
+    t.integer "notable_id", null: false
     t.integer "note_title_id"
     t.string "custom_note_title"
-    t.text "content"
+    t.text "content", null: false
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string "association_type"
@@ -312,7 +312,7 @@ ActiveRecord::Schema.define(version: 20180220074725) do
   end
 
   create_table "pages", force: :cascade do |t|
-    t.integer "citation_id"
+    t.integer "citation_id", null: false
     t.integer "volume"
     t.integer "start_page"
     t.integer "start_line"
@@ -408,8 +408,8 @@ ActiveRecord::Schema.define(version: 20180220074725) do
     t.integer "start_date_fuzz"
     t.integer "end_date_fuzz"
     t.integer "is_current", limit: 2
-    t.integer "dateable_id"
-    t.string "dateable_type"
+    t.integer "dateable_id", null: false
+    t.string "dateable_type", null: false
     t.datetime "created_at"
     t.datetime "updated_at"
     t.index ["dateable_id", "dateable_type"], name: "timespans_1_idx"
