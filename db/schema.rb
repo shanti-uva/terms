@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180310184964) do
+ActiveRecord::Schema.define(version: 20180426010158) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -129,6 +129,15 @@ ActiveRecord::Schema.define(version: 20180310184964) do
     t.string "ancestor_ids"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "definition_subject_associations", force: :cascade do |t|
+    t.bigint "definition_id", null: false
+    t.integer "subject_id", null: false
+    t.integer "branch_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["definition_id"], name: "index_definition_subject_associations_on_definition_id"
   end
 
   create_table "definitions", force: :cascade do |t|
@@ -378,6 +387,7 @@ ActiveRecord::Schema.define(version: 20180310184964) do
     t.integer "subject_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "branch_id", null: false
   end
 
   create_table "summaries", force: :cascade do |t|
@@ -447,4 +457,5 @@ ActiveRecord::Schema.define(version: 20180310184964) do
     t.index ["feature_id"], name: "xml_documents_feature_id_idx"
   end
 
+  add_foreign_key "definition_subject_associations", "definitions"
 end

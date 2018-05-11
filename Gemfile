@@ -45,11 +45,11 @@ gem 'active_resource_extensions', '2.2.0',        github: 'thl/active_resource_e
 gem 'acts_as_family_tree',        '1.1.9',        github: 'thl/acts_as_family_tree',         tag: 'v1.1.9' #path: '../../thl/engines/acts_as_family_tree'
 gem 'authenticated_system',       '2.3.8',        github: 'thl/authenticated_system',        tag: 'v2.3.8' #path: '../../thl/engines/authenticated_system'
 gem 'complex_dates',              '2.2.6',        github: 'thl/complex_dates',               tag: 'v2.2.6' #path: '../../thl/engines/complex_dates'
-gem 'complex_scripts',            '3.0.5',        github: 'thl/complex_scripts',             tag: 'v3.0.5' #path: '../../thl/engines/complex_scripts'
-gem 'dictionary_to_terms',        '0.1.8',        github: 'shanti-uva/dictionary_to_terms',  tag: 'v0.1.8' #path: '../engines/dictionary_to_terms'
+gem 'complex_scripts',            '3.0.6',        github: 'thl/complex_scripts',             tag: 'v3.0.6' #path: '../../thl/engines/complex_scripts'
+gem 'dictionary_to_terms',        '0.1.9',        github: 'shanti-uva/dictionary_to_terms',  tag: 'v0.1.9' #path: '../engines/dictionary_to_terms'
 gem 'interface_utils',            '2.3.7',        github: 'thl/interface_utils',             tag: 'v2.3.7' #path: '../../thl/engines/interface_utils'
 gem 'flare',                      '1.2.1',        github: 'shanti-uva/flare',                tag: 'v1.2.1' #path: '../engines/flare'
-gem 'kmaps_engine',               '5.0.9',        github: 'shanti-uva/kmaps_engine',         tag: 'v5.0.9' #path: '../engines/kmaps_engine'
+gem 'kmaps_engine',               '5.1.4',        github: 'shanti-uva/kmaps_engine',         tag: 'v5.1.4' #path: '../engines/kmaps_engine'
 gem 'mms_integration',            '2.3.5',        github: 'thl/mms_integration',             tag: 'v2.3.5' #path: '../../thl/engines/mms_integration'
 gem 'places_integration',         '2.1.9',        github: 'thl/places_integration',          tag: 'v2.1.9' #path: '../../thl/engines/places_integration'
 gem 'proxy_engine',               '2.1.6',        github: 'thl/proxy_engine',                tag: 'v2.1.6' #path: '../../thl/engines/proxy_engine'
@@ -58,7 +58,7 @@ gem 'shanti_integration',         '3.4.1',        github: 'shanti-uva/shanti_int
 #gem 'topical_map_integration',    '3.1.1',        github: 'thl/topical_map_integration',     tag: 'v3.1.1' #path: '../../thl/engines/topical_map_integration'
 #gem 'topical_map_to_kmaps',       '0.1.1',        github: 'shanti-uva/topical_map_to_kmaps', tag: 'v0.1.1' #path: '../engines/topical_map_to_kmaps'
 gem 'subjects_integration',       '0.2.2',        github: 'shanti-uva/subjects_integration', tag: 'v0.2.2' #path: '../engines/subjects_integration'
-gem 'terms_engine',               '0.2.0',        github: 'shanti-uva/terms_engine',         tag: 'v0.2.0' #path: '../engines/terms_engine'
+gem 'terms_engine',               '0.2.1',        github: 'shanti-uva/terms_engine',         tag: 'v0.2.1' #path: '../engines/terms_engine'
 gem 'universal_navigation',       '3.1.2',        github: 'thl/universal_navigation',        tag: 'v3.1.2' #path: '../../thl/engines/universal_navigation'
 
 # CHECK TO SEE IF I NEED TO DELETE LATER:
