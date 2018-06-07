@@ -12,6 +12,14 @@ GIT
     restful-authentication (2.0.0.beta1)
 
 GIT
+  remote: https://github.com/shanti-uva/dictionary_to_terms.git
+  revision: 2b1de0e552b334a6765de8c2458ed6ac9fa59944
+  tag: v0.2.1
+  specs:
+    dictionary_to_terms (0.2.1)
+      rails (>= 5.1.4)
+
+GIT
   remote: https://github.com/shanti-uva/flare.git
   revision: 6d6a7e117a176f8f5c743c65c15241b35547922e
   tag: v1.2.1
@@ -155,12 +163,6 @@ GIT
   specs:
     universal_navigation (3.1.2)
       rails (>= 4.0)
-
-PATH
-  remote: ../engines/dictionary_to_terms
-  specs:
-    dictionary_to_terms (0.2.0)
-      rails (>= 5.1.4)
 
 GEM
   remote: https://rubygems.org/
@@ -418,7 +420,7 @@ DEPENDENCIES
   capybara (~> 2.13)
   complex_dates (= 2.2.6)!
   complex_scripts (= 3.0.6)!
-  dictionary_to_terms (= 0.2.0)!
+  dictionary_to_terms (= 0.2.1)!
   dynamic_form
   flare (= 1.2.1)!
   hpricot
