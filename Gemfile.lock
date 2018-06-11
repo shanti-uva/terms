@@ -13,8 +13,8 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/dictionary_to_terms.git
-  revision: 2b1de0e552b334a6765de8c2458ed6ac9fa59944
-  tag: v0.2.1
+  revision: ba7fe3cf13dd4af951e16b40b9183d7d63e8802a
+  branch: recordings-importation/MANU-4955/drc2r
   specs:
     dictionary_to_terms (0.2.1)
       rails (>= 5.1.4)
@@ -74,10 +74,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/terms_engine.git
-  revision: 04a788f104ef9ebdc5c0ce329d050e225d03eeca
-  tag: v0.2.2
+  revision: 1511ef6393ab3b593893ed377de316929a2174e1
+  branch: recordings-interface/MANU-4956/drc2r
   specs:
-    terms_engine (0.2.2)
+    terms_engine (0.2.3)
       rails (>= 5.1.4)
 
 GIT
@@ -448,7 +448,7 @@ DEPENDENCIES
   spring
   spring-watcher-listen (~> 2.0.0)
   subjects_integration (= 0.2.2)!
-  terms_engine (= 0.2.2)!
+  terms_engine (= 0.2.3)!
   therubyracer
   tinymce-rails
   tzinfo-data
