@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_06_08_143721) do
+ActiveRecord::Schema.define(version: 2018_06_15_151952) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -383,6 +383,7 @@ ActiveRecord::Schema.define(version: 2018_06_08_143721) do
     t.bigint "feature_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "dialect_id"
     t.index ["feature_id"], name: "index_recordings_on_feature_id"
   end
 

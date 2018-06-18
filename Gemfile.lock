@@ -13,7 +13,7 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/dictionary_to_terms.git
-  revision: ba7fe3cf13dd4af951e16b40b9183d7d63e8802a
+  revision: 57ac64be9f9fc6dc341fe0ce03c521dd79e503f4
   branch: recordings-importation/MANU-4955/drc2r
   specs:
     dictionary_to_terms (0.2.1)
@@ -74,7 +74,7 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/terms_engine.git
-  revision: 1511ef6393ab3b593893ed377de316929a2174e1
+  revision: dd91777bcf769c471b55333543c1699afc360d17
   branch: recordings-interface/MANU-4956/drc2r
   specs:
     terms_engine (0.2.3)
