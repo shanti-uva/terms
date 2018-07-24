@@ -1,9 +1,9 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
-git_source(:github) do |repo_name|
-  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
-  "https://github.com/#{repo_name}.git"
-end
+#git_source(:github) do |repo_name|
+#  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
+#  "https://github.com/#{repo_name}.git"
+#end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -55,7 +55,7 @@ gem 'mms_integration',            '2.3.5',        github: 'thl/mms_integration',
 gem 'places_integration',         '2.1.9',        github: 'thl/places_integration',          tag: 'v2.1.9' #path: '../../thl/engines/places_integration'
 gem 'proxy_engine',               '2.1.6',        github: 'thl/proxy_engine',                tag: 'v2.1.6' #path: '../../thl/engines/proxy_engine'
 gem 'resource_controller',        '0.9.2',        github: 'shanti-uva/resource_controller',  tag: 'v0.9.2' #path: '../engines/resource_controller'
-gem 'shanti_integration',         '3.4.2',        github: 'shanti-uva/shanti_integration',   branch: 'mandala-rails-theme-sync/MANU-4933/drc2r' #tag: 'v3.4.2' #path: '../engines/shanti_integration'
+gem 'shanti_integration',         '3.4.2',        github: 'shanti-uva/shanti_integration',   tag: 'v3.4.2' #branch: 'mandala-rails-theme-sync/MANU-4933/drc2r', path: '../engines/shanti_integration'
 #gem 'topical_map_integration',    '3.1.1',        github: 'thl/topical_map_integration',     tag: 'v3.1.1' #path: '../../thl/engines/topical_map_integration'
 #gem 'topical_map_to_kmaps',       '0.1.1',        github: 'shanti-uva/topical_map_to_kmaps', tag: 'v0.1.1' #path: '../engines/topical_map_to_kmaps'
 gem 'subjects_integration',       '0.2.2',        github: 'shanti-uva/subjects_integration', tag: 'v0.2.2' #path: '../engines/subjects_integration'
