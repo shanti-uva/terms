@@ -74,7 +74,7 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/terms_engine.git
-  revision: c607296cd1ba00d0d4debce1c2465bb5cc65c254
+  revision: a34c87bddebc72730afe8fb5df66bace98a99189
   tag: v0.2.5
   specs:
     terms_engine (0.2.5)
