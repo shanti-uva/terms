@@ -74,10 +74,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/terms_engine.git
-  revision: dd91777bcf769c471b55333543c1699afc360d17
-  branch: recordings-interface/MANU-4956/drc2r
+  revision: c607296cd1ba00d0d4debce1c2465bb5cc65c254
+  tag: v0.2.5
   specs:
-    terms_engine (0.2.3)
+    terms_engine (0.2.5)
       rails (>= 5.1.4)
 
 GIT
@@ -448,7 +448,7 @@ DEPENDENCIES
   spring
   spring-watcher-listen (~> 2.0.0)
   subjects_integration (= 0.2.2)!
-  terms_engine (= 0.2.3)!
+  terms_engine (= 0.2.5)!
   therubyracer
   tinymce-rails
   tzinfo-data
