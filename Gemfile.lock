@@ -31,10 +31,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/kmaps_engine.git
-  revision: e5f59fcc649bd638e20dbbfd6be30106ad1767c6
-  tag: v5.2.3
+  revision: a1f06270b30d177ba34d5f619edec2a666d1cfc8
+  tag: v5.2.4
   specs:
-    kmaps_engine (5.2.3)
+    kmaps_engine (5.2.4)
       annotate
       coffee-rails (~> 4.2)
       exception_notification
@@ -390,7 +390,7 @@ GEM
     turbolinks-source (5.1.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
-    uglifier (4.1.16)
+    uglifier (4.1.17)
       execjs (>= 0.3.0, < 3)
     web-console (3.5.1)
       actionview (>= 5.0)
@@ -428,7 +428,7 @@ DEPENDENCIES
   jbuilder
   jquery-rails
   jquery-ui-rails
-  kmaps_engine (= 5.2.3)!
+  kmaps_engine (= 5.2.4)!
   listen (>= 3.0.5, < 3.2)
   mms_integration (= 2.3.5)!
   newrelic_rpm
