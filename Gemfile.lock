@@ -13,10 +13,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/dictionary_to_terms.git
-  revision: 78285846e52b5c1daca90f2c00bbac77dbb713a6
-  tag: v0.2.3
+  revision: f5e3997ed5e4a4d82f731dd10a8cad1ccf0e2cf1
+  tag: v0.2.5
   specs:
-    dictionary_to_terms (0.2.3)
+    dictionary_to_terms (0.2.5)
       rails (>= 5.1.4)
 
 GIT
@@ -31,10 +31,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/kmaps_engine.git
-  revision: 61f50a8b8e370bf0413dd8d91930320a0925e1d8
-  tag: v5.3.2
+  revision: 5425e839e8c2097c7355f8b8349352db620641e8
+  branch: fixed-tree/MANU-5269/am2zb
   specs:
-    kmaps_engine (5.3.2)
+    kmaps_engine (5.3.4)
       annotate
       coffee-rails (~> 4.2)
       exception_notification
@@ -74,10 +74,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/terms_engine.git
-  revision: 0164c28003987a078d82c368fcbb706aacdac14d
-  tag: v0.3.0
+  revision: ab32135fbb57744c57771d4eba749253fffdbe0e
+  tag: v0.3.2
   specs:
-    terms_engine (0.3.0)
+    terms_engine (0.3.2)
       rails (>= 5.1.4)
 
 GIT
@@ -390,7 +390,7 @@ GEM
     turbolinks-source (5.2.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
-    uglifier (4.1.18)
+    uglifier (4.1.19)
       execjs (>= 0.3.0, < 3)
     web-console (3.5.1)
       actionview (>= 5.0)
@@ -420,7 +420,7 @@ DEPENDENCIES
   capybara (~> 2.13)
   complex_dates (= 2.2.6)!
   complex_scripts (= 3.0.7)!
-  dictionary_to_terms (= 0.2.3)!
+  dictionary_to_terms (= 0.2.5)!
   dynamic_form
   flare (= 1.2.1)!
   hpricot
@@ -428,7 +428,7 @@ DEPENDENCIES
   jbuilder
   jquery-rails
   jquery-ui-rails
-  kmaps_engine (= 5.3.2)!
+  kmaps_engine (= 5.3.4)!
   listen (>= 3.0.5, < 3.2)
   mms_integration (= 2.3.6)!
   newrelic_rpm
@@ -448,7 +448,7 @@ DEPENDENCIES
   spring
   spring-watcher-listen (~> 2.0.0)
   subjects_integration (= 0.2.2)!
-  terms_engine (= 0.3.0)!
+  terms_engine (= 0.3.2)!
   therubyracer
   tinymce-rails
   tzinfo-data
