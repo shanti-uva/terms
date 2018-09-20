@@ -413,7 +413,7 @@ ActiveRecord::Schema.define(version: 2018_09_19_172263) do
   end
 
   create_table "recordings", force: :cascade do |t|
-    t.bigint "feature_id", null: false
+    t.bigint "feature_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "dialect_id"
