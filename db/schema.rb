@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_06_15_151952) do
+ActiveRecord::Schema.define(version: 2018_09_19_172263) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -187,6 +187,23 @@ ActiveRecord::Schema.define(version: 2018_06_15_151952) do
     t.integer "language_id", null: false
   end
 
+  create_table "etymologies", force: :cascade do |t|
+    t.integer "context_id", null: false
+    t.string "context_type", null: false
+    t.text "content", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "etymology_subject_associations", force: :cascade do |t|
+    t.bigint "etymology_id", null: false
+    t.integer "subject_id", null: false
+    t.integer "branch_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["etymology_id"], name: "index_etymology_subject_associations_on_etymology_id"
+  end
+
   create_table "external_pictures", force: :cascade do |t|
     t.string "url", null: false
     t.text "caption"
@@ -323,6 +340,14 @@ ActiveRecord::Schema.define(version: 2018_06_15_151952) do
     t.index ["code"], name: "info_sources_code_key", unique: true
   end
 
+  create_table "model_sentences", force: :cascade do |t|
+    t.integer "context_id", null: false
+    t.string "context_type", null: false
+    t.text "content", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "note_titles", force: :cascade do |t|
     t.string "title"
     t.datetime "created_at"
@@ -350,6 +375,14 @@ ActiveRecord::Schema.define(version: 2018_06_15_151952) do
     t.integer "end_line"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "passages", force: :cascade do |t|
+    t.integer "context_id", null: false
+    t.string "context_type", null: false
+    t.text "content", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "people", force: :cascade do |t|
@@ -380,7 +413,7 @@ ActiveRecord::Schema.define(version: 2018_06_15_151952) do
   end
 
   create_table "recordings", force: :cascade do |t|
-    t.bigint "feature_id"
+    t.bigint "feature_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "dialect_id"
@@ -487,5 +520,6 @@ ActiveRecord::Schema.define(version: 2018_06_15_151952) do
   end
 
   add_foreign_key "definition_subject_associations", "definitions"
+  add_foreign_key "etymology_subject_associations", "etymologies"
   add_foreign_key "recordings", "features"
 end

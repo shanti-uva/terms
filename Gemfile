@@ -59,7 +59,7 @@ gem 'shanti_integration',         '3.4.5',        github: 'shanti-uva/shanti_int
 #gem 'topical_map_integration',    '3.1.1',        github: 'thl/topical_map_integration',     tag: 'v3.1.1' #path: '../../thl/engines/topical_map_integration'
 #gem 'topical_map_to_kmaps',       '0.1.1',        github: 'shanti-uva/topical_map_to_kmaps', tag: 'v0.1.1' #path: '../engines/topical_map_to_kmaps'
 gem 'subjects_integration',       '0.2.2',        github: 'shanti-uva/subjects_integration', tag: 'v0.2.2' #path: '../engines/subjects_integration'
-gem 'terms_engine',               '0.3.2',        github: 'shanti-uva/terms_engine',         branch: 'new-end-user-interface-for-terms/MANU-5278/drc2r' #tag: 'v0.3.2' #path: '../engines/terms_engine'
+gem 'terms_engine',               '0.3.3',        github: 'shanti-uva/terms_engine',         branch: 'new-end-user-interface-for-terms/MANU-5278/drc2r' #tag: 'v0.3.3' #path: '../engines/terms_engine'
 gem 'universal_navigation',       '3.1.2',        github: 'thl/universal_navigation',        tag: 'v3.1.2' #path: '../../thl/engines/universal_navigation'
 
 # CHECK TO SEE IF I NEED TO DELETE LATER:
@@ -74,6 +74,8 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  gem 'pry-rails'
+  gem 'pry-byebug'
 end
 
 group :development do
