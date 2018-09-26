@@ -47,7 +47,7 @@ gem 'acts_as_family_tree',        '1.1.9',        github: 'thl/acts_as_family_tr
 gem 'authenticated_system',       '2.3.8',        github: 'thl/authenticated_system',        tag: 'v2.3.8' #path: '../../thl/engines/authenticated_system'
 gem 'complex_dates',              '2.2.6',        github: 'thl/complex_dates',               tag: 'v2.2.6' #path: '../../thl/engines/complex_dates'
 gem 'complex_scripts',            '3.0.7',        github: 'thl/complex_scripts',             tag: 'v3.0.7' #path: '../../thl/engines/complex_scripts'
-gem 'dictionary_to_terms',        '0.2.5',        github: 'shanti-uva/dictionary_to_terms',  tag: 'v0.2.5' #path: '../engines/dictionary_to_terms', branch: 'recordings-importation/MANU-4955/drc2r'
+gem 'dictionary_to_terms',        '0.2.5',        github: 'shanti-uva/dictionary_to_terms',  branch: 'recordings-importation/MANU-4955/drc2r' #tag: 'v0.2.5' #path: '../engines/dictionary_to_terms'
 gem 'interface_utils',            '2.3.7',        github: 'thl/interface_utils',             tag: 'v2.3.7' #path: '../../thl/engines/interface_utils'
 gem 'flare',                      '1.2.1',        github: 'shanti-uva/flare',                tag: 'v1.2.1' #path: '../engines/flare'
 gem 'kmaps_engine',               '5.3.4',        github: 'shanti-uva/kmaps_engine',         branch: 'fixed-tree/MANU-5269/am2zb' #tag: 'v5.3.4', path: '../engines/kmaps_engine'

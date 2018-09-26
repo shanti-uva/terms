@@ -13,8 +13,8 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/dictionary_to_terms.git
-  revision: f5e3997ed5e4a4d82f731dd10a8cad1ccf0e2cf1
-  tag: v0.2.5
+  revision: eb0b950c7d431e93834bc57c7d67ca71e39fabee
+  branch: recordings-importation/MANU-4955/drc2r
   specs:
     dictionary_to_terms (0.2.5)
       rails (>= 5.1.4)
@@ -74,7 +74,7 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/terms_engine.git
-  revision: 7c41c95898c2d89ae82cf005bf8c2e1050b28928
+  revision: e25caf190d7930a66e3af45a6580f8434d2bf89b
   branch: new-end-user-interface-for-terms/MANU-5278/drc2r
   specs:
     terms_engine (0.3.3)
