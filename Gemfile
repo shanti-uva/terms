@@ -50,7 +50,7 @@ gem 'complex_scripts',            '3.0.7',        github: 'thl/complex_scripts',
 gem 'dictionary_to_terms',        '0.2.5',        github: 'shanti-uva/dictionary_to_terms',  branch: 'recordings-importation/MANU-4955/drc2r' #tag: 'v0.2.5' #path: '../engines/dictionary_to_terms'
 gem 'interface_utils',            '2.3.7',        github: 'thl/interface_utils',             tag: 'v2.3.7' #path: '../../thl/engines/interface_utils'
 gem 'flare',                      '1.2.1',        github: 'shanti-uva/flare',                tag: 'v1.2.1' #path: '../engines/flare'
-gem 'kmaps_engine',               '5.3.4',        github: 'shanti-uva/kmaps_engine',         branch: 'fixed-tree/MANU-5269/am2zb' #tag: 'v5.3.4', path: '../engines/kmaps_engine'
+gem 'kmaps_engine',               '5.3.6',        github: 'shanti-uva/kmaps_engine',         tag: 'v5.3.6' #path: '../engines/kmaps_engine'
 gem 'mms_integration',            '2.3.6',        github: 'thl/mms_integration',             tag: 'v2.3.6' #path: '../../thl/engines/mms_integration'
 gem 'places_integration',         '2.1.9',        github: 'thl/places_integration',          tag: 'v2.1.9' #path: '../../thl/engines/places_integration'
 gem 'proxy_engine',               '2.1.6',        github: 'thl/proxy_engine',                tag: 'v2.1.6' #path: '../../thl/engines/proxy_engine'
@@ -59,7 +59,7 @@ gem 'shanti_integration',         '3.4.5',        github: 'shanti-uva/shanti_int
 #gem 'topical_map_integration',    '3.1.1',        github: 'thl/topical_map_integration',     tag: 'v3.1.1' #path: '../../thl/engines/topical_map_integration'
 #gem 'topical_map_to_kmaps',       '0.1.1',        github: 'shanti-uva/topical_map_to_kmaps', tag: 'v0.1.1' #path: '../engines/topical_map_to_kmaps'
 gem 'subjects_integration',       '0.2.2',        github: 'shanti-uva/subjects_integration', tag: 'v0.2.2' #path: '../engines/subjects_integration'
-gem 'terms_engine',               '0.3.3',        github: 'shanti-uva/terms_engine',         branch: 'new-end-user-interface-for-terms/MANU-5278/drc2r' #tag: 'v0.3.3' #path: '../engines/terms_engine'
+gem 'terms_engine',               '0.3.5',        github: 'shanti-uva/terms_engine',         tag: 'v0.3.5' #path: '../engines/terms_engine'
 gem 'universal_navigation',       '3.1.2',        github: 'thl/universal_navigation',        tag: 'v3.1.2' #path: '../../thl/engines/universal_navigation'
 
 # CHECK TO SEE IF I NEED TO DELETE LATER:

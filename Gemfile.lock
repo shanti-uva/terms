@@ -31,10 +31,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/kmaps_engine.git
-  revision: 5425e839e8c2097c7355f8b8349352db620641e8
-  branch: fixed-tree/MANU-5269/am2zb
+  revision: a92dde635a6bcbd4a02993198ae221802fb552db
+  tag: v5.3.6
   specs:
-    kmaps_engine (5.3.4)
+    kmaps_engine (5.3.6)
       annotate
       coffee-rails (~> 4.2)
       exception_notification
@@ -74,10 +74,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/terms_engine.git
-  revision: 96945a5a5b5b92d9a220384c3dcd0c4e37873a15
-  branch: new-end-user-interface-for-terms/MANU-5278/drc2r
+  revision: 3e3fe85cc7b031be433391598e274cbaeacd31b8
+  tag: v0.3.5
   specs:
-    terms_engine (0.3.3)
+    terms_engine (0.3.5)
       rails (>= 5.2)
 
 GIT
@@ -437,7 +437,7 @@ DEPENDENCIES
   jbuilder
   jquery-rails
   jquery-ui-rails
-  kmaps_engine (= 5.3.4)!
+  kmaps_engine (= 5.3.6)!
   listen (>= 3.0.5, < 3.2)
   mms_integration (= 2.3.6)!
   newrelic_rpm
@@ -459,7 +459,7 @@ DEPENDENCIES
   spring
   spring-watcher-listen (~> 2.0.0)
   subjects_integration (= 0.2.2)!
-  terms_engine (= 0.3.3)!
+  terms_engine (= 0.3.5)!
   therubyracer
   tinymce-rails
   tzinfo-data
