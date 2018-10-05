@@ -74,7 +74,7 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/terms_engine.git
-  revision: c11ed83e939e22b37fde558f6889391f276111eb
+  revision: bd59c208413976a12db25c759008f66a3cafa41d
   branch: add-definition-details-hide-show-toggle/MANU-5338/drc2r
   specs:
     terms_engine (0.3.5)
