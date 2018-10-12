@@ -31,8 +31,8 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/kmaps_engine.git
-  revision: 545c1d7b0aa7bc706f9bc24a58b1d1d696d223d3
-  tag: v5.3.8
+  revision: c30aabb0cfdaf02f04380dbf3c51170e59235490
+  branch: add-related-subjects-assets-popover/MANU-5371/drc2r
   specs:
     kmaps_engine (5.3.8)
       annotate
