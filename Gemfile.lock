@@ -31,7 +31,7 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/kmaps_engine.git
-  revision: c59034727be280cf6c30c146d7740a908ab9ab75
+  revision: 71bc52cc5c51ffe3ec1793c91db079fa6424663c
   branch: add-related-subjects-assets-popover/MANU-5371/drc2r
   specs:
     kmaps_engine (5.4.0)
@@ -74,7 +74,7 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/terms_engine.git
-  revision: 0a9bc31a4869446d3421568fbb58623ee5b2d061
+  revision: 55afadba27d0c0ec2ca1cafa5d5267bee2dfff42
   branch: add-definition-details-hide-show-toggle/MANU-5338/drc2r
   specs:
     terms_engine (0.3.5)
