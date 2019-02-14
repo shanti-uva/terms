@@ -13,10 +13,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/dictionary_to_terms.git
-  revision: f6ff2c093646ca40323f66a0f9c3ca8f5381698b
-  tag: v0.3.0
+  revision: 7b684094b06fa9cf9256b391d2b51e86076edab3
+  tag: v0.3.1
   specs:
-    dictionary_to_terms (0.3.0)
+    dictionary_to_terms (0.3.1)
       rails (>= 5.1.4)
 
 GIT
@@ -430,7 +430,7 @@ DEPENDENCIES
   capybara (~> 2.13)
   complex_dates (= 2.2.8)!
   complex_scripts (= 3.0.7)!
-  dictionary_to_terms (= 0.3.0)!
+  dictionary_to_terms (= 0.3.1)!
   dynamic_form
   flare (= 1.2.3)!
   hpricot
