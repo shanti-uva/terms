@@ -5,17 +5,13 @@ source 'http://rubygems.org'
 #  "https://github.com/#{repo_name}.git"
 #end
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 gem 'bootstrap-sass', '~> 3.3.5'
-# Use Uglifier as compressor for JavaScript assets
-
 # See https://github.com/rails/execjs#readme for more supported runtimes
 gem 'therubyracer', platforms: :ruby
-
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
@@ -29,15 +25,6 @@ gem 'open_id_authentication'
 gem 'spawnling'
 gem 'dynamic_form'
 gem 'activeresource', require: 'active_resource'
-gem 'jbuilder'
-gem 'bootsnap', '>= 1.1.0', require: false
-# Use Redis adapter to run Action Cable in production
-# gem 'redis', '~> 3.0'
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
-
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
 
 gem 'passiverecord',              '0.2',          github: 'ambethia/passiverecord'
 gem 'restful-authentication',     '2.0.0.beta1',  github: 'raszi/restful-authentication', branch: 'rails4'
@@ -45,21 +32,21 @@ gem 'restful-authentication',     '2.0.0.beta1',  github: 'raszi/restful-authent
 gem 'active_resource_extensions', '2.2.0',        github: 'thl/active_resource_extensions',  tag: 'v2.2.0' #path: '../../thl/engines/active_resource_extensions'
 gem 'acts_as_family_tree',        '1.1.9',        github: 'thl/acts_as_family_tree',         tag: 'v1.1.9' #path: '../../thl/engines/acts_as_family_tree'
 gem 'authenticated_system',       '2.3.8',        github: 'thl/authenticated_system',        tag: 'v2.3.8' #path: '../../thl/engines/authenticated_system'
-gem 'complex_dates',              '2.2.6',        github: 'thl/complex_dates',               tag: 'v2.2.6' #path: '../../thl/engines/complex_dates'
+gem 'complex_dates',              '2.2.8',        github: 'thl/complex_dates',               tag: 'v2.2.8' #path: '../../thl/engines/complex_dates'
 gem 'complex_scripts',            '3.0.7',        github: 'thl/complex_scripts',             tag: 'v3.0.7' #path: '../../thl/engines/complex_scripts'
-gem 'dictionary_to_terms',        '0.2.5',        github: 'shanti-uva/dictionary_to_terms',  branch: 'recordings-importation/MANU-4955/drc2r' #tag: 'v0.2.5' #path: '../engines/dictionary_to_terms'
+gem 'dictionary_to_terms',        '0.3.2',        github: 'shanti-uva/dictionary_to_terms',  tag: 'v0.3.2' #path: '../engines/dictionary_to_terms'
 gem 'interface_utils',            '2.3.7',        github: 'thl/interface_utils',             tag: 'v2.3.7' #path: '../../thl/engines/interface_utils'
-gem 'flare',                      '1.2.1',        github: 'shanti-uva/flare',                tag: 'v1.2.1' #path: '../engines/flare'
-gem 'kmaps_engine',               '5.3.8',        github: 'shanti-uva/kmaps_engine',         tag: 'v5.3.8' #path: '../engines/kmaps_engine'
+gem 'flare',                      '1.2.3',        github: 'shanti-uva/flare',                tag: 'v1.2.3' #path: '../engines/flare'
+gem 'kmaps_engine',               '5.5.9',        github: 'shanti-uva/kmaps_engine',         tag: 'v5.5.9' #path: '../engines/kmaps_engine'
 gem 'mms_integration',            '2.3.6',        github: 'thl/mms_integration',             tag: 'v2.3.6' #path: '../../thl/engines/mms_integration'
 gem 'places_integration',         '2.1.9',        github: 'thl/places_integration',          tag: 'v2.1.9' #path: '../../thl/engines/places_integration'
 gem 'proxy_engine',               '2.1.6',        github: 'thl/proxy_engine',                tag: 'v2.1.6' #path: '../../thl/engines/proxy_engine'
 gem 'resource_controller',        '0.9.2',        github: 'shanti-uva/resource_controller',  tag: 'v0.9.2' #path: '../engines/resource_controller'
-gem 'shanti_integration',         '3.4.5',        github: 'shanti-uva/shanti_integration',   tag: 'v3.4.5' #path: '../engines/shanti_integration'
+gem 'shanti_integration',         '3.4.6',        github: 'shanti-uva/shanti_integration',   tag: 'v3.4.6' #path: '../engines/shanti_integration'
 #gem 'topical_map_integration',    '3.1.1',        github: 'thl/topical_map_integration',     tag: 'v3.1.1' #path: '../../thl/engines/topical_map_integration'
 #gem 'topical_map_to_kmaps',       '0.1.1',        github: 'shanti-uva/topical_map_to_kmaps', tag: 'v0.1.1' #path: '../engines/topical_map_to_kmaps'
-gem 'subjects_integration',       '0.2.2',        github: 'shanti-uva/subjects_integration', tag: 'v0.2.2' #path: '../engines/subjects_integration'
-gem 'terms_engine',               '0.3.5',        github: 'shanti-uva/terms_engine',         tag: 'v0.3.5' #path: '../engines/terms_engine'
+gem 'subjects_integration',       '0.2.3',        github: 'shanti-uva/subjects_integration', tag: 'v0.2.3' #path: '../engines/subjects_integration'
+gem 'terms_engine',               '0.3.9',        github: 'shanti-uva/terms_engine',         tag: 'v0.3.9' #path: '../engines/terms_engine'
 gem 'universal_navigation',       '3.1.2',        github: 'thl/universal_navigation',        tag: 'v3.1.2' #path: '../../thl/engines/universal_navigation'
 
 # CHECK TO SEE IF I NEED TO DELETE LATER:
