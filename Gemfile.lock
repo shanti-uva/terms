@@ -75,10 +75,11 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/terms_engine.git
-  revision: 56b17db821412d9c5e13a83bcaad17f66f20e7fa
-  tag: v0.4.0
+  revision: 796262162e976eff86423af656602302130ceb9f
+  tag: v0.4.1
   specs:
-    terms_engine (0.4.0)
+    terms_engine (0.4.1)
+      jbuilder
       rails (>= 5.2)
 
 GIT
@@ -459,7 +460,7 @@ DEPENDENCIES
   spring
   spring-watcher-listen (~> 2.0.0)
   subjects_integration (= 0.2.3)!
-  terms_engine (= 0.4.0)!
+  terms_engine (= 0.4.1)!
   therubyracer
   tinymce-rails
   tzinfo-data
