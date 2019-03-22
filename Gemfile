@@ -16,6 +16,7 @@ gem 'therubyracer', platforms: :ruby
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 
+gem 'jbuilder'
 gem 'hpricot'#, '>= 0.8.6'
 gem 'rack-openid', require: 'rack/openid'
 gem 'will_paginate' #, '~> 3.0'
