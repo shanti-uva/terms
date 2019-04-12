@@ -38,6 +38,7 @@ gem 'complex_scripts',            '3.0.8',        github: 'thl/complex_scripts',
 gem 'dictionary_to_terms',        '0.3.4',        github: 'shanti-uva/dictionary_to_terms',  tag: 'v0.3.4' #path: '../engines/dictionary_to_terms'
 gem 'interface_utils',            '2.3.7',        github: 'thl/interface_utils',             tag: 'v2.3.7' #path: '../../thl/engines/interface_utils'
 gem 'flare',                      '1.2.3',        github: 'shanti-uva/flare',                tag: 'v1.2.3' #path: '../engines/flare'
+gem 'ffi-icu',                    '0.2.0',        github: 'shanti-uva/ffi-icu',              tag: 'v0.2.0' #path: '../engines/ffi-icu'
 gem 'kmaps_engine',               '5.6.4',        github: 'shanti-uva/kmaps_engine',         tag: 'v5.6.4' #path: '../engines/kmaps_engine'
 gem 'mms_integration',            '2.3.6',        github: 'thl/mms_integration',             tag: 'v2.3.6' #path: '../../thl/engines/mms_integration'
 gem 'places_integration',         '2.1.9',        github: 'thl/places_integration',          tag: 'v2.1.9' #path: '../../thl/engines/places_integration'

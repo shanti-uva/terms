@@ -20,6 +20,14 @@ GIT
       rails (>= 5.1.4)
 
 GIT
+  remote: git://github.com/shanti-uva/ffi-icu.git
+  revision: 6addcb1e54764c999686797cb8c82f494b3c4405
+  tag: v0.2.0
+  specs:
+    ffi-icu (0.2.0)
+      ffi (~> 1.0, >= 1.0.9)
+
+GIT
   remote: git://github.com/shanti-uva/flare.git
   revision: 09e53df556db53cc948614c3f08f2223c454c88e
   tag: v1.2.3
@@ -433,6 +441,7 @@ DEPENDENCIES
   complex_scripts (= 3.0.8)!
   dictionary_to_terms (= 0.3.4)!
   dynamic_form
+  ffi-icu (= 0.2.0)!
   flare (= 1.2.3)!
   hpricot
   interface_utils (= 2.3.7)!
