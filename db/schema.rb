@@ -190,7 +190,8 @@ ActiveRecord::Schema.define(version: 2018_09_19_172263) do
   create_table "etymologies", force: :cascade do |t|
     t.integer "context_id", null: false
     t.string "context_type", null: false
-    t.text "content", null: false
+    t.text "content"
+    t.string "derivation"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
