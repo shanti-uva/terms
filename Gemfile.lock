@@ -289,6 +289,7 @@ GEM
       thor (>= 0.14, < 2.0)
     jquery-ui-rails (6.0.1)
       railties (>= 3.2.16)
+    libv8 (3.16.14.19)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -362,6 +363,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
+    ref (2.0.0)
     rsolr (2.0.2)
       builder (>= 2.1.2)
       faraday
@@ -395,6 +397,9 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
+    therubyracer (0.12.3)
+      libv8 (~> 3.16.14.15)
+      ref
     thor (0.20.3)
     thread_safe (0.3.6)
     tilt (2.0.8)
@@ -466,6 +471,7 @@ DEPENDENCIES
   spring-watcher-listen (~> 2.0.0)
   subjects_integration (= 0.2.3)!
   terms_engine (= 0.4.8)!
+  therubyracer
   tinymce-rails
   tzinfo-data
   universal_navigation (= 3.1.2)!
