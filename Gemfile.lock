@@ -127,10 +127,10 @@ GIT
 
 GIT
   remote: git://github.com/thl/complex_scripts.git
-  revision: 2d500f6a882657aa999f1f77a2cde5a4e2555d30
-  tag: v3.0.9
+  revision: 08b75ddc131703fbc4e743386b465fa19a3ee7a3
+  tag: v3.1.0
   specs:
-    complex_scripts (3.0.9)
+    complex_scripts (3.1.0)
       hpricot
       passiverecord (= 0.2)
       rails (>= 4.0)
@@ -438,7 +438,7 @@ DEPENDENCIES
   byebug
   capybara (~> 2.13)
   complex_dates (= 2.2.8)!
-  complex_scripts (= 3.0.9)!
+  complex_scripts (= 3.1.0)!
   dictionary_to_terms (= 0.3.6)!
   dynamic_form
   ffi-icu (= 0.2.0)!
