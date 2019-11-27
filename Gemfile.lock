@@ -13,10 +13,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/dictionary_to_terms.git
-  revision: 12a77a70ca87eba65a7ea8c9a95d9b6b941e6959
-  tag: v0.3.7
+  revision: 34d037e97bfd5bd784d00ca87e1576bfe5279944
+  tag: v0.3.8
   specs:
-    dictionary_to_terms (0.3.7)
+    dictionary_to_terms (0.3.8)
       rails (>= 5.1.4)
 
 GIT
@@ -83,10 +83,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/terms_engine.git
-  revision: 3ce02e1b6e631b2545d32fd78a0606c0b3505187
-  tag: v0.5.3
+  revision: ae9382e329d1c10fcdca2895e9d96584b043226e
+  tag: v0.5.4
   specs:
-    terms_engine (0.5.3)
+    terms_engine (0.5.4)
       jbuilder
       rails (>= 5.2)
 
@@ -437,7 +437,7 @@ DEPENDENCIES
   capybara (~> 2.13)
   complex_dates (= 2.2.8)!
   complex_scripts (= 3.1.0)!
-  dictionary_to_terms (= 0.3.7)!
+  dictionary_to_terms (= 0.3.8)!
   dynamic_form
   ffi-icu (= 0.2.0)!
   flare (= 1.2.3)!
@@ -468,7 +468,7 @@ DEPENDENCIES
   spring
   spring-watcher-listen (~> 2.0.0)
   subjects_integration (= 0.2.3)!
-  terms_engine (= 0.5.3)!
+  terms_engine (= 0.5.4)!
   therubyracer
   tinymce-rails
   tzinfo-data
