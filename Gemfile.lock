@@ -13,10 +13,10 @@ GIT
 
 GIT
   remote: git://github.com/shanti-uva/dictionary_to_terms.git
-  revision: 34d037e97bfd5bd784d00ca87e1576bfe5279944
-  tag: v0.3.8
+  revision: ffc87df14c5b81cdcd49ebad6b2503de62705f86
+  tag: v0.3.9
   specs:
-    dictionary_to_terms (0.3.8)
+    dictionary_to_terms (0.3.9)
       rails (>= 5.1.4)
 
 GIT
@@ -323,7 +323,7 @@ GEM
     pry-rails (0.3.9)
       pry (>= 0.10.4)
     public_suffix (4.0.1)
-    puma (3.12.1)
+    puma (3.12.2)
     rack (2.0.7)
     rack-openid (1.4.2)
       rack (>= 1.1.0)
@@ -435,7 +435,7 @@ DEPENDENCIES
   capybara (~> 2.13)
   complex_dates (= 2.2.8)!
   complex_scripts (= 3.1.0)!
-  dictionary_to_terms (= 0.3.8)!
+  dictionary_to_terms (= 0.3.9)!
   dynamic_form
   ffi-icu (= 0.2.0)!
   flare (= 1.2.3)!
