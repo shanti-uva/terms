@@ -8,7 +8,7 @@ source 'http://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0.7'
+gem 'sass-rails', '5.0.7'
 gem 'bootstrap-sass', '3.3.7'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 gem 'therubyracer', platforms: :ruby
