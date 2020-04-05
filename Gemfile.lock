@@ -108,8 +108,8 @@ GIT
 
 GIT
   remote: git://github.com/thl/authenticated_system.git
-  revision: a2cf08808e67a71c8d53c6fc5ceca837936a620b
-  tag: v2.3.8
+  revision: f3fbe8b4a09423cf94f3aa93cbf1dce40971ffac
+  branch: debug-shibboleth/drc2r
   specs:
     authenticated_system (2.3.8)
       rails (>= 4.0)
@@ -290,7 +290,6 @@ GEM
       thor (>= 0.14, < 2.0)
     jquery-ui-rails (6.0.1)
       railties (>= 3.2.16)
-    libv8 (3.16.14.19)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -355,7 +354,6 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
-    ref (2.0.0)
     rsolr (2.0.2)
       builder (>= 2.1.2)
       faraday
@@ -389,9 +387,6 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    therubyracer (0.12.3)
-      libv8 (~> 3.16.14.15)
-      ref
     thor (1.0.1)
     thread_safe (0.3.6)
     tilt (2.0.10)
@@ -462,7 +457,6 @@ DEPENDENCIES
   spring-watcher-listen (~> 2.0.0)
   subjects_integration (= 0.2.3)!
   terms_engine (= 0.6.2)!
-  therubyracer
   tinymce-rails
   tzinfo-data
   universal_navigation (= 3.1.2)!

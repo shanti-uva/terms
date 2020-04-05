@@ -11,7 +11,7 @@ gem 'rails', '~> 5.2.3'
 gem 'sass-rails', '5.0.7'
 gem 'bootstrap-sass', '3.3.7'
 # See https://github.com/rails/execjs#readme for more supported runtimes
-gem 'therubyracer', platforms: :ruby
+#gem 'therubyracer', platforms: :ruby
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
@@ -32,7 +32,7 @@ gem 'restful-authentication',     '2.0.0.beta1',  github: 'raszi/restful-authent
 
 gem 'active_resource_extensions', '2.2.0',        github: 'thl/active_resource_extensions',  tag: 'v2.2.0' #path: '../../thl/engines/active_resource_extensions'
 gem 'acts_as_family_tree',        '1.1.9',        github: 'thl/acts_as_family_tree',         tag: 'v1.1.9' #path: '../../thl/engines/acts_as_family_tree'
-gem 'authenticated_system',       '2.3.8',        github: 'thl/authenticated_system',        tag: 'v2.3.8' #path: '../../thl/engines/authenticated_system'
+gem 'authenticated_system',       '2.3.8',        github: 'thl/authenticated_system',        branch: 'debug-shibboleth/drc2r' #tag: 'v2.3.8', path: '../../thl/engines/authenticated_system'
 gem 'complex_dates',              '2.2.8',        github: 'thl/complex_dates',               tag: 'v2.2.8' #path: '../../thl/engines/complex_dates'
 gem 'complex_scripts',            '3.1.0',        github: 'thl/complex_scripts',             tag: 'v3.1.0' #path: '../../thl/engines/complex_scripts'
 gem 'dictionary_to_terms',        '0.3.9',        github: 'shanti-uva/dictionary_to_terms',  tag: 'v0.3.9' #path: '../engines/dictionary_to_terms'
