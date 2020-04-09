@@ -135,10 +135,10 @@ GIT
 
 GIT
   remote: git://github.com/thl/interface_utils.git
-  revision: 06b4455010929390d642993d6829416150df7301
-  tag: v2.3.7
+  revision: 93c973c42c40ddda156baacbbc2680aabc9f25b6
+  tag: v2.3.8
   specs:
-    interface_utils (2.3.7)
+    interface_utils (2.3.8)
       rails (>= 4.0)
 
 GIT
@@ -432,7 +432,7 @@ DEPENDENCIES
   ffi-icu (= 0.2.0)!
   flare (= 1.2.3)!
   hpricot
-  interface_utils (= 2.3.7)!
+  interface_utils (= 2.3.8)!
   jbuilder
   jquery-rails
   jquery-ui-rails

@@ -3,3 +3,4 @@ enable.localhost: 'no'
 default.perspective.code: 'tib.alpha'
 default.view.code: 'roman.scholar'
 default.relation_type.code: 'is.beginning.of'
+server.environment: 'local' # Valid values: local, development, staging and production
