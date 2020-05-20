@@ -28,7 +28,6 @@ gem 'spawnling'
 gem 'dynamic_form'
 gem 'activeresource', require: 'active_resource'
 gem 'delayed_job_active_record'
-gem 'delayed_job_web'
 
 gem 'passiverecord',              '0.2',          github: 'ambethia/passiverecord'
 gem 'restful-authentication',     '2.0.0.beta1',  github: 'raszi/restful-authentication', branch: 'rails4'

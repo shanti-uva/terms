@@ -277,11 +277,6 @@ GEM
     delayed_job_active_record (4.1.4)
       activerecord (>= 3.0, < 6.1)
       delayed_job (>= 3.0, < 5)
-    delayed_job_web (1.4.3)
-      activerecord (> 3.0.0)
-      delayed_job (> 2.0.3)
-      rack-protection (>= 1.5.5)
-      sinatra (>= 1.4.4)
     dynamic_form (1.1.4)
     erubi (1.9.0)
     exception_notification (4.4.0)
@@ -324,8 +319,6 @@ GEM
     minitest (5.14.0)
     msgpack (1.3.3)
     multipart-post (2.1.1)
-    mustermann (1.1.1)
-      ruby2_keywords (~> 0.0.1)
     newrelic_rpm (6.7.0.359)
     nio4r (2.5.2)
     nokogiri (1.10.9)
@@ -339,8 +332,6 @@ GEM
     rack-openid (1.4.2)
       rack (>= 1.1.0)
       ruby-openid (>= 2.1.8)
-    rack-protection (2.0.8.1)
-      rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (5.2.4.2)
@@ -377,7 +368,6 @@ GEM
       builder (>= 2.1.2)
       faraday
     ruby-openid (2.9.2)
-    ruby2_keywords (0.0.2)
     ruby_dep (1.5.0)
     rubyzip (1.3.0)
     sass (3.7.4)
@@ -394,11 +384,6 @@ GEM
     selenium-webdriver (3.142.6)
       childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)
-    sinatra (2.0.8.1)
-      mustermann (~> 1.0)
-      rack (~> 2.0)
-      rack-protection (= 2.0.8.1)
-      tilt (~> 2.0)
     spawnling (2.1.6)
     spring (2.0.2)
       activesupport (>= 4.2)
@@ -453,7 +438,6 @@ DEPENDENCIES
   complex_dates (= 2.2.9)!
   complex_scripts (= 3.1.0)!
   delayed_job_active_record
-  delayed_job_web
   dictionary_to_terms (= 0.3.9)!
   dynamic_form
   ffi-icu (= 0.2.0)!
