@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_05_19_080855) do
+ActiveRecord::Schema.define(version: 2020_06_16_073043) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -202,6 +202,15 @@ ActiveRecord::Schema.define(version: 2020_05_19_080855) do
     t.string "title"
     t.string "source_url"
     t.integer "language_id", null: false
+  end
+
+  create_table "essays", force: :cascade do |t|
+    t.bigint "feature_id", null: false
+    t.integer "text_id", null: false
+    t.integer "language_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["feature_id"], name: "index_essays_on_feature_id"
   end
 
   create_table "etymologies", force: :cascade do |t|
@@ -548,6 +557,7 @@ ActiveRecord::Schema.define(version: 2020_05_19_080855) do
   end
 
   add_foreign_key "definition_subject_associations", "definitions"
+  add_foreign_key "essays", "features"
   add_foreign_key "etymology_subject_associations", "etymologies"
   add_foreign_key "recordings", "features"
   add_foreign_key "relation_subject_associations", "feature_relations"
