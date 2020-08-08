@@ -78,10 +78,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/subjects_integration.git
-  revision: 24c2b360e805fc371c754e8fbc17e60146710569
-  tag: v0.2.8
+  revision: 0b2dc59d0b182ff5b640408127d57e4fd5bfee12
+  tag: v0.3.0
   specs:
-    subjects_integration (0.2.8)
+    subjects_integration (0.3.0)
       pg
       rails (>= 4.0)
 
@@ -470,7 +470,7 @@ DEPENDENCIES
   spawnling
   spring (~> 2.0.2)
   spring-watcher-listen (~> 2.0.0)
-  subjects_integration (= 0.2.8)!
+  subjects_integration (= 0.3.0)!
   terms_engine (= 0.7.0)!
   tinymce-rails
   tzinfo-data
