@@ -70,10 +70,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/shanti_integration.git
-  revision: f52aab6e65ae1839da9e1aa9fa16679cbdbb7721
-  tag: v3.5.0
+  revision: b0d0d5828255990bb4e2a952df2d85ea57e6fce8
+  tag: v3.5.1
   specs:
-    shanti_integration (3.5.0)
+    shanti_integration (3.5.1)
       rails (>= 4.0)
 
 GIT
@@ -87,10 +87,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/terms_engine.git
-  revision: 5f6adf6eb6f0d57d74b8d820dba2ef690474f401
-  tag: v0.7.0
+  revision: 70ae441f09b372328eeb169d38660b1d618cb208
+  tag: v0.7.2
   specs:
-    terms_engine (0.7.0)
+    terms_engine (0.7.2)
 
 GIT
   remote: https://github.com/thl/active_resource_extensions.git
@@ -466,12 +466,12 @@ DEPENDENCIES
   restful-authentication (= 2.0.0.beta1)!
   sass-rails (= 5.0.7)
   selenium-webdriver
-  shanti_integration (= 3.5.0)!
+  shanti_integration (= 3.5.1)!
   spawnling
   spring (~> 2.0.2)
   spring-watcher-listen (~> 2.0.0)
   subjects_integration (= 0.3.0)!
-  terms_engine (= 0.7.0)!
+  terms_engine (= 0.7.2)!
   tinymce-rails
   tzinfo-data
   universal_navigation (= 3.1.3)!
