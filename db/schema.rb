@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_06_16_073043) do
+ActiveRecord::Schema.define(version: 2020_08_25_213327) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -142,6 +142,20 @@ ActiveRecord::Schema.define(version: 2020_06_16_073043) do
     t.integer "rabjung_end_id"
     t.integer "intercalary_month_end_id"
     t.integer "intercalary_day_end_id"
+  end
+
+  create_table "definition_associations", force: :cascade do |t|
+    t.bigint "definition_id"
+    t.string "associated_type"
+    t.bigint "associated_id"
+    t.bigint "perspective_id"
+    t.bigint "feature_relation_type_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["associated_type", "associated_id"], name: "index_definition_associations_on_associated"
+    t.index ["definition_id"], name: "index_definition_associations_on_definition_id"
+    t.index ["feature_relation_type_id"], name: "index_definition_associations_on_feature_relation_type_id"
+    t.index ["perspective_id"], name: "index_definition_associations_on_perspective_id"
   end
 
   create_table "definition_relations", force: :cascade do |t|
@@ -556,6 +570,9 @@ ActiveRecord::Schema.define(version: 2020_06_16_073043) do
     t.index ["feature_id"], name: "xml_documents_feature_id_idx"
   end
 
+  add_foreign_key "definition_associations", "definitions"
+  add_foreign_key "definition_associations", "feature_relation_types"
+  add_foreign_key "definition_associations", "perspectives"
   add_foreign_key "definition_subject_associations", "definitions"
   add_foreign_key "essays", "features"
   add_foreign_key "etymology_subject_associations", "etymologies"
