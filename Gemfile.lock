@@ -37,10 +37,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/kmaps_engine.git
-  revision: dae7f74328d47421f8ee719e2130f74d924fee73
-  tag: v6.0.4
+  revision: e56dfa98d8f987c494bb0f65fe0de90ac3104e64
+  tag: v6.0.9
   specs:
-    kmaps_engine (6.0.4)
+    kmaps_engine (6.0.9)
       annotate
       bootsnap (>= 1.1.0)
       coffee-rails (~> 4.2)
@@ -81,17 +81,17 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/terms_engine.git
-  revision: 117038bc9e936b53adbe98b8d9ef4fbbeb6de4d0
-  tag: v0.7.6
+  revision: ae9bf9093d3f2e28ed19c668fcfba7a751fedd6d
+  tag: v0.7.7
   specs:
-    terms_engine (0.7.6)
+    terms_engine (0.7.7)
 
 GIT
   remote: https://github.com/thl/active_resource_extensions.git
-  revision: 7a9b16a07a309526bcb4928bad7cabf871347064
-  tag: v2.2.3
+  revision: 9376fac04bfea16d2a635eac30dd4c3821c34d3e
+  tag: v2.2.4
   specs:
-    active_resource_extensions (2.2.3)
+    active_resource_extensions (2.2.4)
       activeresource
       hpricot
       rails (>= 4.0)
@@ -140,10 +140,10 @@ GIT
 
 GIT
   remote: https://github.com/thl/mms_integration.git
-  revision: 143e158536934b12ac496f5bf1db8eefbdda3be3
-  tag: v2.4.2
+  revision: c19b7154ef74f744ac6d74116e9f5f2d9ce1e8d9
+  tag: v2.4.3
   specs:
-    mms_integration (2.4.2)
+    mms_integration (2.4.3)
       rails (>= 4.0)
 
 GIT
@@ -416,7 +416,7 @@ PLATFORMS
 DEPENDENCIES
   actionpack-action_caching
   actionpack-page_caching
-  active_resource_extensions (= 2.2.3)!
+  active_resource_extensions (= 2.2.4)!
   activeresource
   acts_as_family_tree (= 1.2.0)!
   authenticated_system (= 2.4.0)!
@@ -436,9 +436,9 @@ DEPENDENCIES
   jbuilder
   jquery-rails
   jquery-ui-rails
-  kmaps_engine (= 6.0.4)!
+  kmaps_engine (= 6.0.9)!
   listen (>= 3.0.5, < 3.2)
-  mms_integration (= 2.4.2)!
+  mms_integration (= 2.4.3)!
   newrelic_rpm
   open_id_authentication
   places_integration (= 2.2.4)!
@@ -454,7 +454,7 @@ DEPENDENCIES
   spring (~> 2.0.2)
   spring-watcher-listen (~> 2.0.0)
   subjects_integration (= 0.3.0)!
-  terms_engine (= 0.7.6)!
+  terms_engine (= 0.7.7)!
   tinymce-rails
   tzinfo-data
   universal_navigation (= 3.1.3)!
