@@ -37,7 +37,7 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/kmaps_engine.git
-  revision: 9a8c9602bc5def952a6de39350302d02e3adfff8
+  revision: 787a41e9eb2d36f2ad44c62fc6f8c03f62b66302
   tag: v6.2.2
   specs:
     kmaps_engine (6.2.2)
@@ -81,7 +81,7 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/terms_engine.git
-  revision: 47685c5a4205ecb08d445d5637724a897c28060e
+  revision: 8b22b8ee52791a64db6cee382701470efb00137c
   tag: v0.8.4
   specs:
     terms_engine (0.8.4)
