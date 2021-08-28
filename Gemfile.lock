@@ -37,10 +37,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/kmaps_engine.git
-  revision: 7e2439305ec942caad50a2fe9143e26acbc96254
-  tag: v6.3.1
+  revision: 1be43ce45efe4a4c7fb8d7316a8beabeb931b79a
+  tag: v6.3.2
   specs:
-    kmaps_engine (6.3.1)
+    kmaps_engine (6.3.2)
       annotate
       bootsnap (>= 1.1.0)
       coffee-rails (~> 4.2)
@@ -64,7 +64,7 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/shanti_integration.git
-  revision: a0cd4bd7a3a27f7cd84c4ca692d6b1586c2312b9
+  revision: be2de35125709bee199e268818d604993a5beec6
   tag: v3.5.3
   specs:
     shanti_integration (3.5.3)
@@ -443,7 +443,7 @@ DEPENDENCIES
   jbuilder
   jquery-rails
   jquery-ui-rails
-  kmaps_engine (= 6.3.1)!
+  kmaps_engine (= 6.3.2)!
   listen (>= 3.0.5, < 3.2)
   mms_integration (= 2.4.4)!
   newrelic_rpm
