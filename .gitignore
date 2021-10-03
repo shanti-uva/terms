@@ -16,6 +16,7 @@ tmp/
 *.csv
 *.txt
 *.err
+*.xml
 config/*.yml
 config/environments/quandu_*.rb
 config/environments/bleak_house.rb

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_08_25_213327) do
+ActiveRecord::Schema.define(version: 2021_10_03_182130) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -379,6 +379,7 @@ ActiveRecord::Schema.define(version: 2020_08_25_213327) do
     t.date "date_published"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean "processed", default: false, null: false
     t.index ["code"], name: "info_sources_code_key", unique: true
   end
 
@@ -410,13 +411,27 @@ ActiveRecord::Schema.define(version: 2020_08_25_213327) do
 
   create_table "pages", force: :cascade do |t|
     t.integer "citation_id", null: false
-    t.integer "volume"
+    t.string "volume"
     t.integer "start_page"
-    t.integer "start_line"
+    t.string "start_line"
     t.integer "end_page"
     t.integer "end_line"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer "chapter"
+    t.string "tibetan_start_page"
+    t.integer "start_verse"
+    t.integer "end_verse"
+  end
+
+  create_table "passage_translations", force: :cascade do |t|
+    t.string "context_type", null: false
+    t.bigint "context_id", null: false
+    t.text "content", null: false
+    t.integer "language_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["context_type", "context_id"], name: "index_passage_translations_on_context_type_and_context_id"
   end
 
   create_table "passages", force: :cascade do |t|
@@ -538,6 +553,16 @@ ActiveRecord::Schema.define(version: 2020_08_25_213327) do
     t.index ["dateable_id", "dateable_type"], name: "timespans_1_idx"
     t.index ["end_date"], name: "timespans_end_date_idx"
     t.index ["start_date"], name: "timespans_start_date_idx"
+  end
+
+  create_table "translation_equivalents", force: :cascade do |t|
+    t.string "context_type", null: false
+    t.bigint "context_id", null: false
+    t.string "content", null: false
+    t.integer "language_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["context_type", "context_id"], name: "index_translation_equivalents_on_context_type_and_context_id"
   end
 
   create_table "users", force: :cascade do |t|
