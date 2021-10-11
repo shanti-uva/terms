@@ -145,11 +145,11 @@ ActiveRecord::Schema.define(version: 2021_10_03_182130) do
   end
 
   create_table "definition_associations", force: :cascade do |t|
-    t.bigint "definition_id"
-    t.string "associated_type"
-    t.bigint "associated_id"
+    t.bigint "definition_id", null: false
+    t.string "associated_type", null: false
+    t.bigint "associated_id", null: false
     t.bigint "perspective_id"
-    t.bigint "feature_relation_type_id"
+    t.bigint "feature_relation_type_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["associated_type", "associated_id"], name: "index_definition_associations_on_associated"
@@ -556,13 +556,12 @@ ActiveRecord::Schema.define(version: 2021_10_03_182130) do
   end
 
   create_table "translation_equivalents", force: :cascade do |t|
-    t.string "context_type", null: false
-    t.bigint "context_id", null: false
+    t.bigint "feature_id", null: false
     t.string "content", null: false
     t.integer "language_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["context_type", "context_id"], name: "index_translation_equivalents_on_context_type_and_context_id"
+    t.index ["feature_id"], name: "index_translation_equivalents_on_feature_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -603,4 +602,5 @@ ActiveRecord::Schema.define(version: 2021_10_03_182130) do
   add_foreign_key "etymology_subject_associations", "etymologies"
   add_foreign_key "recordings", "features"
   add_foreign_key "relation_subject_associations", "feature_relations"
+  add_foreign_key "translation_equivalents", "features"
 end
