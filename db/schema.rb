@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_10_03_182130) do
+ActiveRecord::Schema.define(version: 2022_12_15_194447) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -380,6 +380,7 @@ ActiveRecord::Schema.define(version: 2021_10_03_182130) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.boolean "processed", default: false, null: false
+    t.integer "position", default: 0, null: false
     t.index ["code"], name: "info_sources_code_key", unique: true
   end
 
