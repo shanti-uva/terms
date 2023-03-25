@@ -81,10 +81,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/terms_engine.git
-  revision: 745a2577550d56b335d483ca8bfdae993e6ec347
-  tag: v1.1.5
+  revision: e9b66632aa25f9ac89b80ce46f08a6f7bcbf56f3
+  tag: v1.1.6
   specs:
-    terms_engine (1.1.5)
+    terms_engine (1.1.6)
 
 GIT
   remote: https://github.com/thl/active_resource_extensions.git
@@ -469,7 +469,7 @@ DEPENDENCIES
   spring (~> 2.0.2)
   spring-watcher-listen (~> 2.0.0)
   subjects_integration (= 0.3.2)!
-  terms_engine (= 1.1.5)!
+  terms_engine (= 1.1.6)!
   tinymce-rails
   tzinfo-data
   universal_navigation (= 3.1.3)!
