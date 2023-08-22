@@ -4,13 +4,42 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile ~/.gitignore_global
 
-/storage
-.bundle
-/vendor/bundle
+# Ignore bundler config.
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-*
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore pidfiles, but keep the directory.
+/tmp/pids/*
+!/tmp/pids/
+!/tmp/pids/.keep
+
+# Ignore uploaded files in development.
+/storage/*
+!/storage/.keep
+
+/public/assets
 .byebug_history
-db/*.sqlite3
-log/*.log
-tmp/
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
+
+/public/packs
+/public/packs-test
+/node_modules
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+
+/vendor/bundle
 .DS_Store
 *.tmproj
 *.csv
@@ -18,10 +47,6 @@ tmp/
 *.err
 *.xml
 config/*.yml
-config/environments/quandu_*.rb
-config/environments/bleak_house.rb
-doc/plugins/*
-node_modules/
 public/javascripts/tiny_mce
 public/features
 public/categories
@@ -30,5 +55,4 @@ public/assets
 public/shanti
 public/solr
 public/terms
-path
 yarn.lock
