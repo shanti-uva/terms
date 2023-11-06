@@ -7,19 +7,35 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 #end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.1', '>= 6.1.7.4'
+gem "rails", "~> 7.0.7", ">= 7.0.7.2"
+
 # Use SCSS for stylesheets
-gem 'sass-rails', '>= 6'
+gem 'sass-rails'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
-gem 'webpacker', '~> 5.0'
-gem 'bootstrap-sass', '>= 3.4.1'
+gem 'webpacker'
+gem 'bootstrap-sass'
+
+# Build JSON APIs with ease [https://github.com/rails/jbuilder]
+#gem "jbuilder"
+
 # See https://github.com/rails/execjs#readme for more supported runtimes
 #gem 'therubyracer', platforms: :ruby
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 
-gem 'jbuilder', '~> 2.7'
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Reduces boot times through caching; required in config/boot.rb
+# gem "bootsnap", require: false
+
+# Use Sass to process CSS
+# gem "sassc-rails"
+
+# Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
+# gem "image_processing", "~> 1.2"
+
 gem 'hpricot'#, '>= 0.8.6'
 #gem 'nokogiri', '~> 1.13.10'
 gem 'rack-openid', require: 'rack/openid'
@@ -42,15 +58,15 @@ gem 'dictionary_to_terms',        '0.4.1',        github: 'shanti-uva/dictionary
 gem 'interface_utils',            '2.4.1',        github: 'thl/interface_utils',             tag: 'v2.4.1' #path: '../../thl/engines/interface_utils'
 gem 'flare',                      '1.3.9',        github: 'shanti-uva/flare',                tag: 'v1.3.9' #path: '../engines/flare'
 gem 'ffi-icu',                    '0.2.1',        github: 'shanti-uva/ffi-icu',              tag: 'v0.2.1' #path: '../engines/ffi-icu'
-gem 'kmaps_engine',               '6.5.4',        github: 'shanti-uva/kmaps_engine',         tag: 'v6.5.4' #path: '../engines/kmaps_engine'
+gem 'kmaps_engine',               '6.5.5',        github: 'shanti-uva/kmaps_engine',         tag: 'v6.5.5' #path: '../engines/kmaps_engine'
 gem 'mms_integration',            '2.4.5',        github: 'thl/mms_integration',             tag: 'v2.4.5' #,branch: 'without-local' path: '../../thl/engines/mms_integration'
 gem 'places_integration',         '2.2.4',        github: 'thl/places_integration',          tag: 'v2.2.4' #path: '../../thl/engines/places_integration'
-gem 'resource_controller',        '0.9.2',        github: 'shanti-uva/resource_controller',  tag: 'v0.9.2' #path: '../engines/resource_controller'
-gem 'shanti_integration',         '3.5.9',        github: 'shanti-uva/shanti_integration',   tag: 'v3.5.9' #path: '../engines/shanti_integration'
+gem 'resource_controller',        '0.9.3',        github: 'shanti-uva/resource_controller',  tag: 'v0.9.3' #path: '../engines/resource_controller'
+gem 'shanti_integration',         '3.6.0',        github: 'shanti-uva/shanti_integration',   tag: 'v3.6.0' #path: '../engines/shanti_integration'
 #gem 'topical_map_integration',    '3.1.1',        github: 'thl/topical_map_integration',     tag: 'v3.1.1' #path: '../../thl/engines/topical_map_integration'
 #gem 'topical_map_to_kmaps',       '0.1.1',        github: 'shanti-uva/topical_map_to_kmaps', tag: 'v0.1.1' #path: '../engines/topical_map_to_kmaps'
 gem 'subjects_integration',       '0.3.3',        github: 'shanti-uva/subjects_integration', tag: 'v0.3.3' #path: '../engines/subjects_integration'
-gem 'terms_engine',               '1.2.7',        github: 'shanti-uva/terms_engine',         tag: 'v1.2.7' #path: '../engines/terms_engine'
+gem 'terms_engine',               '1.2.8',        github: 'shanti-uva/terms_engine',         tag: 'v1.2.8' #path: '../engines/terms_engine'
 gem 'universal_navigation',       '3.1.3',        github: 'thl/universal_navigation',        tag: 'v3.1.3' #path: '../../thl/engines/universal_navigation'
 
 # CHECK TO SEE IF I NEED TO DELETE LATER:
@@ -61,27 +77,22 @@ gem 'actionpack-action_caching', github: 'rails/actionpack-action_caching'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem "debug", platforms: %i[ mri mingw x64_mingw ]
 end
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
-  gem 'web-console', '>= 4.1.0'
-  # Display performance information such as SQL time and flame graphs for each request in your browser.
-  # Can be configured to work on production as well see: https://github.com/MiniProfiler/rack-mini-profiler/blob/master/README.md
-  gem 'rack-mini-profiler', '~> 2.0'
-  gem 'listen', '~> 3.3'
-  # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
+  gem 'web-console'
+  # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
+  # gem "rack-mini-profiler"
+
+  # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
+  # gem "spring"
 end
 
 group :test do
-  # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '>= 3.26'
-  gem 'selenium-webdriver', '>= 4.0.0.rc1'
-  # Easy installation and use of web drivers to run system tests with browsers
-  gem 'webdrivers'
+  # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
+  gem "capybara"
+  gem "selenium-webdriver"
+  gem "webdrivers"
 end
-
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
