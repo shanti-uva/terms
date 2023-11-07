@@ -6,8 +6,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 #  "https://github.com/#{repo_name}.git"
 #end
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem "rails", "~> 7.0.7", ">= 7.0.7.2"
+# Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
+gem 'rails', '~> 7.1.1'
 
 # Use SCSS for stylesheets
 gem 'sass-rails'
@@ -52,13 +52,13 @@ gem 'restful-authentication',     '2.0.0.beta1',  github: 'raszi/restful-authent
 gem 'active_resource_extensions', '2.2.5',        github: 'thl/active_resource_extensions',  tag: 'v2.2.5' #path: '../../thl/engines/active_resource_extensions'
 gem 'acts_as_family_tree',        '1.2.2',        github: 'thl/acts_as_family_tree',         tag: 'v1.2.2' #path: '../../thl/engines/acts_as_family_tree'
 gem 'authenticated_system',       '2.4.2',        github: 'thl/authenticated_system',        tag: 'v2.4.2' #path: '../../thl/engines/authenticated_system'
-gem 'complex_dates',              '2.3.6',        github: 'thl/complex_dates',               tag: 'v2.3.6' #path: '../../thl/engines/complex_dates'
+gem 'complex_dates',              '2.3.7',        github: 'thl/complex_dates',               tag: 'v2.3.7' #path: '../../thl/engines/complex_dates'
 gem 'complex_scripts',            '3.1.4',        github: 'thl/complex_scripts',             tag: 'v3.1.4' #path: '../../thl/engines/complex_scripts'
 gem 'dictionary_to_terms',        '0.4.1',        github: 'shanti-uva/dictionary_to_terms',  tag: 'v0.4.1' #path: '../engines/dictionary_to_terms'
 gem 'interface_utils',            '2.4.1',        github: 'thl/interface_utils',             tag: 'v2.4.1' #path: '../../thl/engines/interface_utils'
 gem 'flare',                      '1.3.9',        github: 'shanti-uva/flare',                tag: 'v1.3.9' #path: '../engines/flare'
 gem 'ffi-icu',                    '0.2.1',        github: 'shanti-uva/ffi-icu',              tag: 'v0.2.1' #path: '../engines/ffi-icu'
-gem 'kmaps_engine',               '6.5.5',        github: 'shanti-uva/kmaps_engine',         tag: 'v6.5.5' #path: '../engines/kmaps_engine'
+gem 'kmaps_engine',               '6.5.6',        github: 'shanti-uva/kmaps_engine',         tag: 'v6.5.6' #path: '../engines/kmaps_engine'
 gem 'mms_integration',            '2.4.5',        github: 'thl/mms_integration',             tag: 'v2.4.5' #,branch: 'without-local' path: '../../thl/engines/mms_integration'
 gem 'places_integration',         '2.2.4',        github: 'thl/places_integration',          tag: 'v2.2.4' #path: '../../thl/engines/places_integration'
 gem 'resource_controller',        '0.9.3',        github: 'shanti-uva/resource_controller',  tag: 'v0.9.3' #path: '../engines/resource_controller'
