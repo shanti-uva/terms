@@ -21,10 +21,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/dictionary_to_terms.git
-  revision: aa82e19d5f4a64ffc333e15c5464e7e9ecd96b1d
-  tag: v0.4.1
+  revision: 827905d46c571be0c2b8d6d43d47c6f299f140b1
+  tag: v0.4.2
   specs:
-    dictionary_to_terms (0.4.1)
+    dictionary_to_terms (0.4.2)
       rails (>= 5.1.4)
 
 GIT
@@ -68,10 +68,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/resource_controller.git
-  revision: 9e1829b5ec8dd609d95e2141f420bd508053a342
-  tag: v0.9.4
+  revision: 9fb10dc63385fea154258f3072fbcc5bb273158f
+  tag: v0.9.5
   specs:
-    resource_controller (0.9.4)
+    resource_controller (0.9.5)
 
 GIT
   remote: https://github.com/shanti-uva/shanti_integration.git
@@ -92,61 +92,61 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/terms_engine.git
-  revision: 0347dd8b7b83130e8625f83ec14e64b47ea84116
-  tag: v1.2.9
+  revision: 9ae5cf315ba7f99a42f0ebcb75a436b15e01a63c
+  tag: v1.3.0
   specs:
-    terms_engine (1.2.9)
+    terms_engine (1.3.0)
 
 GIT
   remote: https://github.com/thl/active_resource_extensions.git
-  revision: 0c9adcd2b2a65cd71c1946e10cd00826125ed324
-  tag: v2.2.6
+  revision: ac49ce195c23720c15ff68b9b4c0b19b06b22080
+  tag: v2.2.7
   specs:
-    active_resource_extensions (2.2.6)
+    active_resource_extensions (2.2.7)
       activeresource
       hpricot
       rails
 
 GIT
   remote: https://github.com/thl/acts_as_family_tree.git
-  revision: 3640b40670745c6872041307a4899edbd965797e
-  tag: v1.2.3
+  revision: 9047925aa03bf9219f5264eaa51c09ad0236cf95
+  tag: v1.2.4
   specs:
-    acts_as_family_tree (1.2.3)
+    acts_as_family_tree (1.2.4)
       rails (>= 4.0)
 
 GIT
   remote: https://github.com/thl/authenticated_system.git
-  revision: 6f9a4af2ecf7029c61455c705d0812b9abdd7b40
-  tag: v2.4.3
+  revision: 5ef4efe712335f7b958c7ffb4f7e881a5aac6e83
+  tag: v2.4.4
   specs:
-    authenticated_system (2.4.3)
+    authenticated_system (2.4.4)
       rails (>= 4.0)
 
 GIT
   remote: https://github.com/thl/complex_dates.git
-  revision: 9de916caa27ab7e41ae5f11d1b7c1bba249a8c96
-  tag: v2.3.8
+  revision: 68d93b02ed876eed7c533a012c2d56db05f5d7ae
+  tag: v2.3.9
   specs:
-    complex_dates (2.3.8)
+    complex_dates (2.3.9)
       pg
       rails (>= 5.0)
 
 GIT
   remote: https://github.com/thl/complex_scripts.git
-  revision: 094ee736d7a2bc701606a7879d1b1e3964ce352b
-  tag: v3.1.5
+  revision: fc79bce3b587f689131bdaeeae8247472ee94edc
+  tag: v3.1.6
   specs:
-    complex_scripts (3.1.5)
+    complex_scripts (3.1.6)
       hpricot
       rails (>= 4.0)
 
 GIT
   remote: https://github.com/thl/interface_utils.git
-  revision: 3ba84263df7ec8b63a67783e5e36eacf735f33ff
-  tag: v2.4.1
+  revision: 51851aea144c12fd9c36ef806e394b1c7431b038
+  tag: v2.4.2
   specs:
-    interface_utils (2.4.1)
+    interface_utils (2.4.2)
       rails (>= 4.0)
 
 GIT
@@ -491,22 +491,22 @@ PLATFORMS
 DEPENDENCIES
   actionpack-action_caching!
   actionpack-page_caching
-  active_resource_extensions (= 2.2.6)!
+  active_resource_extensions (= 2.2.7)!
   activeresource
-  acts_as_family_tree (= 1.2.3)!
-  authenticated_system (= 2.4.3)!
+  acts_as_family_tree (= 1.2.4)!
+  authenticated_system (= 2.4.4)!
   bootstrap-sass
   capybara
-  complex_dates (= 2.3.8)!
-  complex_scripts (= 3.1.5)!
+  complex_dates (= 2.3.9)!
+  complex_scripts (= 3.1.6)!
   debug
   delayed_job_active_record
-  dictionary_to_terms (= 0.4.1)!
+  dictionary_to_terms (= 0.4.2)!
   dynamic_form
   ffi-icu (= 0.2.2)!
   flare (= 1.4.0)!
   hpricot
-  interface_utils (= 2.4.1)!
+  interface_utils (= 2.4.2)!
   jquery-rails
   jquery-ui-rails
   kmaps_engine (= 6.5.7)!
@@ -516,14 +516,14 @@ DEPENDENCIES
   rack-openid
   rails (~> 7.1.1)
   rails-observers!
-  resource_controller (= 0.9.4)!
+  resource_controller (= 0.9.5)!
   restful-authentication (= 2.0.0.beta1)!
   sass-rails
   selenium-webdriver
   shanti_integration (= 3.6.1)!
   spawnling
   subjects_integration (= 0.3.3)!
-  terms_engine (= 1.2.9)!
+  terms_engine (= 1.3.0)!
   tinymce-rails
   tzinfo-data
   universal_navigation (= 3.1.3)!
