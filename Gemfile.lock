@@ -51,10 +51,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/kmaps_engine.git
-  revision: 34d9833880b1357841443e45acd8fd01ee56072a
-  tag: v6.5.9
+  revision: f73e69eddc7b8fbc13276bc769ab92ef0ed376a1
+  tag: v6.6.0
   specs:
-    kmaps_engine (6.5.9)
+    kmaps_engine (6.6.0)
       annotate
       bootsnap
       exception_notification
@@ -92,10 +92,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/terms_engine.git
-  revision: 81c5e5fb48093fb06ad477556ac11e510f57b7de
-  tag: v1.3.1
+  revision: 37a28964b4b264c87b64eb73d51de636df96fe72
+  tag: v1.3.2
   specs:
-    terms_engine (1.3.1)
+    terms_engine (1.3.2)
 
 GIT
   remote: https://github.com/thl/active_resource_extensions.git
@@ -510,7 +510,7 @@ DEPENDENCIES
   interface_utils (= 2.4.2)!
   jquery-rails
   jquery-ui-rails
-  kmaps_engine (= 6.5.9)!
+  kmaps_engine (= 6.6.0)!
   mms_integration (= 2.4.6)!
   newrelic_rpm
   places_integration (= 2.2.7)!
@@ -524,7 +524,7 @@ DEPENDENCIES
   shanti_integration (= 3.6.1)!
   spawnling
   subjects_integration (= 0.3.3)!
-  terms_engine (= 1.3.1)!
+  terms_engine (= 1.3.2)!
   tinymce-rails
   tzinfo-data
   universal_navigation (= 3.1.4)!
