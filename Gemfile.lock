@@ -92,10 +92,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/terms_engine.git
-  revision: 84e4108accea0596d57438f9bad197dd8b924c29
-  tag: v1.4.9
+  revision: ee0892a798641fd883e2895adabc314ef021653d
+  tag: v1.5.0
   specs:
-    terms_engine (1.4.9)
+    terms_engine (1.5.0)
 
 GIT
   remote: https://github.com/thl/active_resource_extensions.git
@@ -524,7 +524,7 @@ DEPENDENCIES
   shanti_integration (= 3.6.1)!
   spawnling
   subjects_integration (= 0.3.3)!
-  terms_engine (= 1.4.9)!
+  terms_engine (= 1.5.0)!
   tinymce-rails
   tzinfo-data
   universal_navigation (= 3.1.4)!
