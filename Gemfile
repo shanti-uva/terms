@@ -24,7 +24,6 @@ gem 'bootstrap-sass'
 #gem 'therubyracer', platforms: :ruby
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
-gem 'jquery-ui-rails'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
@@ -49,6 +48,7 @@ gem 'dynamic_form'
 gem 'activeresource', require: 'active_resource'
 gem 'delayed_job_active_record'
 
+gem 'jquery-ui-rails',            '7.0.0',        github: 'jquery-ui-rails/jquery-ui-rails',  tag: 'v7.0.0'
 gem 'restful-authentication',     '2.0.0.beta1',  github: 'raszi/restful-authentication', branch: 'rails4'
 
 gem 'active_resource_extensions', '2.2.7',        github: 'thl/active_resource_extensions',  tag: 'v2.2.7' #path: '../../thl/engines/active_resource_extensions'
