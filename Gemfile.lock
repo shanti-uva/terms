@@ -133,10 +133,10 @@ GIT
 
 GIT
   remote: https://github.com/thl/complex_dates.git
-  revision: fb90fba6ddb8efeb3add7262fc51311768a9a528
-  tag: v2.4.0
+  revision: 0b14428dd9545d32be0079eae54ee5a56a5cbdb7
+  tag: v2.4.1
   specs:
-    complex_dates (2.4.0)
+    complex_dates (2.4.1)
       pg
       rails (>= 5.0)
 
@@ -504,7 +504,7 @@ DEPENDENCIES
   authenticated_system (= 2.4.4)!
   bootstrap-sass
   capybara
-  complex_dates (= 2.4.0)!
+  complex_dates (= 2.4.1)!
   complex_scripts (= 3.1.7)!
   debug
   delayed_job_active_record
