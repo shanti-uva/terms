@@ -142,10 +142,10 @@ GIT
 
 GIT
   remote: https://github.com/thl/complex_scripts.git
-  revision: 460d24f47ccc588c3afeeacf04af15e6731e5cc3
-  tag: v3.1.7
+  revision: 7368fed498bec9e26e7ffc4b41122ff892ff6682
+  tag: v3.1.8
   specs:
-    complex_scripts (3.1.7)
+    complex_scripts (3.1.8)
       hpricot
       rails (>= 4.0)
 
@@ -505,7 +505,7 @@ DEPENDENCIES
   bootstrap-sass
   capybara
   complex_dates (= 2.4.1)!
-  complex_scripts (= 3.1.7)!
+  complex_scripts (= 3.1.8)!
   debug
   delayed_job_active_record
   dictionary_to_terms (= 0.4.2)!
