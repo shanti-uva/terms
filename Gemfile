@@ -60,7 +60,7 @@ gem 'dictionary_to_terms',        '0.4.2',        github: 'shanti-uva/dictionary
 gem 'interface_utils',            '2.4.2',        github: 'thl/interface_utils',             tag: 'v2.4.2' #path: '../../thl/engines/interface_utils'
 gem 'ffi-icu',                    '0.2.2',        github: 'shanti-uva/ffi-icu',              tag: 'v0.2.2' #path: '../engines/ffi-icu'
 gem 'flare',                      '1.4.0',        github: 'shanti-uva/flare',                tag: 'v1.4.0' #path: '../engines/flare'
-gem 'kmaps_engine',               '6.7.0',        github: 'shanti-uva/kmaps_engine',         tag: 'v6.7.0' #path: '../engines/kmaps_engine'
+gem 'kmaps_engine',               '6.7.1',        github: 'shanti-uva/kmaps_engine',         tag: 'v6.7.1' #path: '../engines/kmaps_engine'
 gem 'mms_integration',            '2.4.6',        github: 'thl/mms_integration',             tag: 'v2.4.6' #,branch: 'without-local', path: '../../thl/engines/mms_integration'
 gem 'places_integration',         '2.2.7',        github: 'thl/places_integration',          tag: 'v2.2.7' #path: '../../thl/engines/places_integration'
 gem 'resource_controller',        '0.9.5',        github: 'shanti-uva/resource_controller',  tag: 'v0.9.5' #path: '../engines/resource_controller'
@@ -68,7 +68,7 @@ gem 'shanti_integration',         '3.6.1',        github: 'shanti-uva/shanti_int
 #gem 'topical_map_integration',    '3.1.1',        github: 'thl/topical_map_integration',     tag: 'v3.1.1' #path: '../../thl/engines/topical_map_integration'
 #gem 'topical_map_to_kmaps',       '0.1.1',        github: 'shanti-uva/topical_map_to_kmaps', tag: 'v0.1.1' #path: '../engines/topical_map_to_kmaps'
 gem 'subjects_integration',       '0.3.3',        github: 'shanti-uva/subjects_integration', tag: 'v0.3.3' #path: '../engines/subjects_integration'
-gem 'terms_engine',               '1.5.8',        github: 'shanti-uva/terms_engine',         tag: 'v1.5.8' #path: '../engines/terms_engine'
+gem 'terms_engine',               '1.5.9',        github: 'shanti-uva/terms_engine',         tag: 'v1.5.9' #path: '../engines/terms_engine'
 gem 'universal_navigation',       '3.1.4',        github: 'thl/universal_navigation',        tag: 'v3.1.4' #path: '../../thl/engines/universal_navigation'
 
 # CHECK TO SEE IF I NEED TO DELETE LATER:
