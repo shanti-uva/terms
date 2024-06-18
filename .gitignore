@@ -58,3 +58,5 @@ public/terms
 yarn.lock
 /app/assets/builds/*
 !/app/assets/builds/.keep
+
+/.idea
