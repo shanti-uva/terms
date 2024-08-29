@@ -45,10 +45,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/flare.git
-  revision: 91031e4dc74983a03f819436397c6664cbe3c154
-  tag: v1.4.1
+  revision: 87c7a9e02acd07c6782c9559f839408cdb66e160
+  tag: v1.4.2
   specs:
-    flare (1.4.1)
+    flare (1.4.2)
       activeresource
       daemons
       delayed_job_active_record
@@ -59,10 +59,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/kmaps_engine.git
-  revision: af506349b9bdfb5bd05d77ad31d2bb32b716bdff
-  tag: v6.7.9
+  revision: b9f5f25214ced504f7e28a1d67ae35def24ef047
+  tag: v6.8.0
   specs:
-    kmaps_engine (6.7.9)
+    kmaps_engine (6.8.0)
       annotate
       bootsnap
       exception_notification
@@ -516,12 +516,12 @@ DEPENDENCIES
   dictionary_to_terms (= 0.4.2)!
   dynamic_form
   ffi-icu (= 0.2.2)!
-  flare (= 1.4.1)!
+  flare (= 1.4.2)!
   hpricot
   interface_utils (= 2.4.2)!
   jquery-rails
   jquery-ui-rails (= 7.0.0)!
-  kmaps_engine (= 6.7.9)!
+  kmaps_engine (= 6.8.0)!
   mms_integration (= 2.4.6)!
   newrelic_rpm
   places_integration (= 2.2.7)!
