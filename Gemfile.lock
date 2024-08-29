@@ -59,10 +59,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/kmaps_engine.git
-  revision: b5bc98625b3f0162b709a81b0dc5b7b0a417b56b
-  tag: v6.8.1
+  revision: 265eaadea3f710d92d8d3692ffc7e337daa336d2
+  tag: v6.8.2
   specs:
-    kmaps_engine (6.8.1)
+    kmaps_engine (6.8.2)
       annotate
       bootsnap
       exception_notification
@@ -521,7 +521,7 @@ DEPENDENCIES
   interface_utils (= 2.4.2)!
   jquery-rails
   jquery-ui-rails (= 7.0.0)!
-  kmaps_engine (= 6.8.1)!
+  kmaps_engine (= 6.8.2)!
   mms_integration (= 2.4.6)!
   newrelic_rpm
   places_integration (= 2.2.7)!
