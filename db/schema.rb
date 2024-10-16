@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2023_11_06_223657) do
+ActiveRecord::Schema[7.1].define(version: 2024_09_27_175523) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -505,6 +505,15 @@ ActiveRecord::Schema[7.1].define(version: 2023_11_06_223657) do
     t.index ["role_id", "user_id"], name: "index_roles_users_on_role_id_and_user_id", unique: true
   end
 
+  create_table "sentence_translations", force: :cascade do |t|
+    t.text "content", null: false
+    t.bigint "model_sentence_id", null: false
+    t.integer "language_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["model_sentence_id"], name: "index_sentence_translations_on_model_sentence_id"
+  end
+
   create_table "simple_props", force: :cascade do |t|
     t.string "name"
     t.string "code"
@@ -611,5 +620,6 @@ ActiveRecord::Schema[7.1].define(version: 2023_11_06_223657) do
   add_foreign_key "etymology_subject_associations", "etymologies"
   add_foreign_key "recordings", "features"
   add_foreign_key "relation_subject_associations", "feature_relations"
+  add_foreign_key "sentence_translations", "model_sentences"
   add_foreign_key "translation_equivalents", "features"
 end
