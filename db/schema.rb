@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2023_11_06_223657) do
+ActiveRecord::Schema[7.1].define(version: 2024_09_11_222717) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -190,7 +190,6 @@ ActiveRecord::Schema[7.1].define(version: 2023_11_06_223657) do
     t.integer "position", default: 0
     t.text "content", null: false
     t.integer "author_id"
-    t.integer "numerology"
     t.string "tense"
     t.datetime "created_at", precision: nil, null: false
     t.datetime "updated_at", precision: nil, null: false
@@ -222,6 +221,14 @@ ActiveRecord::Schema[7.1].define(version: 2023_11_06_223657) do
     t.string "title"
     t.string "source_url"
     t.integer "language_id", null: false
+  end
+
+  create_table "enumerations", force: :cascade do |t|
+    t.integer "context_id", null: false
+    t.string "context_type", null: false
+    t.integer "value", null: false
+    t.datetime "created_at", precision: nil, null: false
+    t.datetime "updated_at", precision: nil, null: false
   end
 
   create_table "essays", force: :cascade do |t|
