@@ -37,7 +37,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
-gem 'hpricot'#, '>= 0.8.6'
+gem 'hpricot', github: 'ycorredius/hpricot'#, '>= 0.8.6'
 #gem 'nokogiri', '~> 1.13.10'
 gem 'rack-openid', require: 'rack/openid'
 gem 'will_paginate' #, '~> 3.0'
@@ -68,7 +68,7 @@ gem 'shanti_integration',         '3.6.1',        github: 'shanti-uva/shanti_int
 #gem 'topical_map_integration',    '3.1.1',        github: 'thl/topical_map_integration',     tag: 'v3.1.1' #path: '../../thl/engines/topical_map_integration'
 #gem 'topical_map_to_kmaps',       '0.1.1',        github: 'shanti-uva/topical_map_to_kmaps', tag: 'v0.1.1' #path: '../engines/topical_map_to_kmaps'
 gem 'subjects_integration',       '0.3.3',        github: 'shanti-uva/subjects_integration', tag: 'v0.3.3' #path: '../engines/subjects_integration'
-gem 'terms_engine',               '1.7.4',        github: 'shanti-uva/terms_engine',         tag: 'v1.7.4' #path: '../engines/terms_engine'
+gem 'terms_engine',               '1.7.5',        github: 'shanti-uva/terms_engine',         tag: 'v1.7.5' #path: '../engines/terms_engine'
 gem 'universal_navigation',       '3.1.4',        github: 'thl/universal_navigation',        tag: 'v3.1.4' #path: '../../thl/engines/universal_navigation'
 
 # CHECK TO SEE IF I NEED TO DELETE LATER:
