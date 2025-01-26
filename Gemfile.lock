@@ -84,7 +84,7 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/shanti_integration.git
-  revision: 23923ac0c1334f4acd6051659a3195bfdb99bea5
+  revision: 79df3f7dd0d3b3845977b28a89bb4a5cbfc0768d
   tag: v3.6.3
   specs:
     shanti_integration (3.6.3)
