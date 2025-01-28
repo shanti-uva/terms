@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_11_25_114518) do
+ActiveRecord::Schema[7.1].define(version: 2025_01_28_070611) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -394,6 +394,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_11_25_114518) do
     t.datetime "updated_at", precision: nil
     t.boolean "processed", default: false, null: false
     t.integer "position", default: 0, null: false
+    t.integer "language_id"
     t.index ["code"], name: "info_sources_code_key", unique: true
   end
 
@@ -599,6 +600,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_11_25_114518) do
     t.datetime "updated_at", precision: nil
     t.string "identity_url"
     t.string "shibboleth_id"
+    t.string "access_token"
   end
 
   create_table "web_pages", force: :cascade do |t|

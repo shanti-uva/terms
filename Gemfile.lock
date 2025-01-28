@@ -101,10 +101,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/terms_engine.git
-  revision: a9ff6639b49f35b23dfb0ed9688a9fe4e5676b08
-  tag: v1.7.9
+  revision: f1b0c16f3f3ee7eff20a3f1c9ca8e74b137baf4c
+  tag: v1.8.0
   specs:
-    terms_engine (1.7.9)
+    terms_engine (1.8.0)
       sprockets-rails
 
 GIT
@@ -127,11 +127,11 @@ GIT
 
 GIT
   remote: https://github.com/thl/authenticated_system.git
-  revision: 5ef4efe712335f7b958c7ffb4f7e881a5aac6e83
-  tag: v2.4.4
+  revision: 7bf2c8f837b88cba5e007974fa1e2b0286cc6245
+  tag: v2.4.5
   specs:
-    authenticated_system (2.4.4)
-      rails (>= 4.0)
+    authenticated_system (2.4.5)
+      rails (~> 7.0)
 
 GIT
   remote: https://github.com/thl/complex_dates.git
@@ -515,7 +515,7 @@ DEPENDENCIES
   active_resource_extensions (= 2.2.7)!
   activeresource
   acts_as_family_tree (= 1.2.4)!
-  authenticated_system (= 2.4.4)!
+  authenticated_system (= 2.4.5)!
   bootstrap-sass
   capybara
   complex_dates (= 2.4.2)!
@@ -544,7 +544,7 @@ DEPENDENCIES
   shanti_integration (= 3.6.3)!
   spawnling
   subjects_integration (= 0.3.3)!
-  terms_engine (= 1.7.9)!
+  terms_engine (= 1.8.0)!
   tinymce-rails
   tzinfo-data
   universal_navigation (= 3.1.4)!
