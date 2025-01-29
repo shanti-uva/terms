@@ -84,10 +84,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/shanti_integration.git
-  revision: 974fd5f259c581bf90107b1e1100b2024bb1fca4
-  tag: v3.6.3
+  revision: 8da4975fc9478e60e436d59ff2aacbd5c333e1d0
+  tag: v3.6.4
   specs:
-    shanti_integration (3.6.3)
+    shanti_integration (3.6.4)
       rails
 
 GIT
@@ -101,10 +101,11 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/terms_engine.git
-  revision: f1b0c16f3f3ee7eff20a3f1c9ca8e74b137baf4c
-  tag: v1.8.0
+  revision: 865b4d031567795c2fd6df3924557f3655d2dbb0
+  tag: v1.8.1
   specs:
-    terms_engine (1.8.0)
+    terms_engine (1.8.1)
+      ruby-openai
       sprockets-rails
 
 GIT
@@ -323,6 +324,7 @@ GEM
       actionview (> 5.2.0)
       activemodel (> 5.2.0)
     erubi (1.13.1)
+    event_stream_parser (1.0.0)
     exception_notification (4.5.0)
       actionmailer (>= 5.2, < 8)
       activesupport (>= 5.2, < 8)
@@ -331,6 +333,8 @@ GEM
       faraday-net_http (>= 2.0, < 3.5)
       json
       logger
+    faraday-multipart (1.1.0)
+      multipart-post (~> 2.0)
     faraday-net_http (3.4.0)
       net-http (>= 0.5.0)
     ffi (1.17.1)
@@ -369,6 +373,7 @@ GEM
     mini_portile2 (2.8.8)
     minitest (5.25.4)
     msgpack (1.7.5)
+    multipart-post (2.4.1)
     mutex_m (0.3.0)
     net-http (0.6.0)
       uri
@@ -453,6 +458,10 @@ GEM
     rsolr (2.0.2)
       builder (>= 2.1.2)
       faraday
+    ruby-openai (7.3.1)
+      event_stream_parser (>= 0.3.0, < 2.0.0)
+      faraday (>= 1)
+      faraday-multipart (>= 1)
     ruby-openid (2.9.2)
     rubyzip (2.4.1)
     sass-rails (6.0.0)
@@ -549,10 +558,10 @@ DEPENDENCIES
   restful-authentication (= 2.0.0.beta1)!
   sass-rails
   selenium-webdriver
-  shanti_integration (= 3.6.3)!
+  shanti_integration (= 3.6.4)!
   spawnling
   subjects_integration (= 0.3.3)!
-  terms_engine (= 1.8.0)!
+  terms_engine (= 1.8.1)!
   tinymce-rails
   tzinfo-data
   universal_navigation (= 3.1.4)!
