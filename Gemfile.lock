@@ -84,10 +84,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/shanti_integration.git
-  revision: 8da4975fc9478e60e436d59ff2aacbd5c333e1d0
-  tag: v3.6.4
+  revision: f4026415e77f59537dee5a8b52ab29ae9aabdbdd
+  tag: v3.6.5
   specs:
-    shanti_integration (3.6.4)
+    shanti_integration (3.6.5)
       rails
 
 GIT
@@ -101,10 +101,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/terms_engine.git
-  revision: f34769ff6e177c7ec044a7988adc983db4f29419
-  tag: v1.8.2
+  revision: 65b6471ecdac3699cae42835166583abdd18c53c
+  tag: v1.8.3
   specs:
-    terms_engine (1.8.2)
+    terms_engine (1.8.3)
       ruby-openai
       sprockets-rails
 
@@ -372,7 +372,7 @@ GEM
     mini_mime (1.1.5)
     mini_portile2 (2.8.8)
     minitest (5.25.4)
-    msgpack (1.7.5)
+    msgpack (1.8.0)
     multipart-post (2.4.1)
     mutex_m (0.3.0)
     net-http (0.6.0)
@@ -403,7 +403,7 @@ GEM
       date
       stringio
     public_suffix (6.0.1)
-    puma (6.5.0)
+    puma (6.6.0)
       nio4r (~> 2.0)
     racc (1.8.1)
     rack (3.1.8)
@@ -558,10 +558,10 @@ DEPENDENCIES
   restful-authentication (= 2.0.0.beta1)!
   sass-rails
   selenium-webdriver
-  shanti_integration (= 3.6.4)!
+  shanti_integration (= 3.6.5)!
   spawnling
   subjects_integration (= 0.3.3)!
-  terms_engine (= 1.8.2)!
+  terms_engine (= 1.8.3)!
   tinymce-rails
   tzinfo-data
   universal_navigation (= 3.1.4)!
