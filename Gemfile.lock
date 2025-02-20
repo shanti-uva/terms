@@ -101,10 +101,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/terms_engine.git
-  revision: 65b6471ecdac3699cae42835166583abdd18c53c
-  tag: v1.8.3
+  revision: b6e9914e1bd565e7d85c4c529c2df2645fdb80a2
+  tag: v1.8.4
   specs:
-    terms_engine (1.8.3)
+    terms_engine (1.8.4)
       ruby-openai
       sprockets-rails
 
@@ -120,10 +120,11 @@ GIT
 
 GIT
   remote: https://github.com/thl/acts_as_family_tree.git
-  revision: 6effdd82dc9b6ab4036398e530d7e92dd7d65eaa
-  tag: v1.2.6
+  revision: f0375aacbf7d2519e895a5c987021e1f38e8884d
+  tag: v1.2.7
   specs:
-    acts_as_family_tree (1.2.6)
+    acts_as_family_tree (1.2.7)
+      delayed_job_active_record
       rails
 
 GIT
@@ -458,7 +459,7 @@ GEM
     rsolr (2.0.2)
       builder (>= 2.1.2)
       faraday
-    ruby-openai (7.3.1)
+    ruby-openai (7.4.0)
       event_stream_parser (>= 0.3.0, < 2.0.0)
       faraday (>= 1)
       faraday-multipart (>= 1)
@@ -531,7 +532,7 @@ DEPENDENCIES
   actionpack-page_caching
   active_resource_extensions (= 2.2.7)!
   activeresource
-  acts_as_family_tree (= 1.2.6)!
+  acts_as_family_tree (= 1.2.7)!
   authenticated_system (= 2.4.6)!
   bootstrap-sass
   capybara
@@ -561,7 +562,7 @@ DEPENDENCIES
   shanti_integration (= 3.6.7)!
   spawnling
   subjects_integration (= 0.3.4)!
-  terms_engine (= 1.8.3)!
+  terms_engine (= 1.8.4)!
   tinymce-rails
   tzinfo-data
   universal_navigation (= 3.1.5)!
