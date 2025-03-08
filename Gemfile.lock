@@ -59,10 +59,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/kmaps_engine.git
-  revision: 57e0ba0528f10f8d47d7d048319f0033cbcdaff8
-  tag: v6.8.8
+  revision: 67e87bab55a748c60cf93a38886af666f3d52d8b
+  tag: v6.8.9
   specs:
-    kmaps_engine (6.8.8)
+    kmaps_engine (6.8.9)
       annotate
       bootsnap
       delayed_job_active_record
@@ -101,10 +101,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/terms_engine.git
-  revision: 1500a415bd6a5f7048dfcd81ba4d65d0a0597271
-  tag: v1.8.6
+  revision: ebe49183f6d01b2c899502af7b35896c475c2bb7
+  tag: v1.8.7
   specs:
-    terms_engine (1.8.6)
+    terms_engine (1.8.7)
       ruby-openai
       sprockets-rails
 
@@ -548,7 +548,7 @@ DEPENDENCIES
   interface_utils (= 2.4.3)!
   jquery-rails
   jquery-ui-rails (= 7.0.0)!
-  kmaps_engine (= 6.8.8)!
+  kmaps_engine (= 6.8.9)!
   mms_integration (= 2.4.6)!
   newrelic_rpm
   places_integration (= 2.2.8)!
@@ -562,7 +562,7 @@ DEPENDENCIES
   shanti_integration (= 3.6.7)!
   spawnling
   subjects_integration (= 0.3.4)!
-  terms_engine (= 1.8.6)!
+  terms_engine (= 1.8.7)!
   tinymce-rails
   tzinfo-data
   universal_navigation (= 3.1.5)!
