@@ -40,7 +40,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # gem "image_processing", "~> 1.2"
 
 gem 'hpricot', github: 'ycorredius/hpricot'#, '>= 0.8.6'
-#gem 'nokogiri', '~> 1.13.10'
 gem 'rack-openid', require: 'rack/openid'
 gem 'will_paginate' #, '~> 3.0'
 gem 'tinymce-rails' #, '3.5.9' compatible with ruby 1.8.7
