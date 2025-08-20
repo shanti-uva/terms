@@ -37,11 +37,13 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/ffi-icu.git
-  revision: ad9b6bebbfde2819d2f8cddf19b696616a769503
-  tag: v0.2.2
+  revision: 7ed5cb0bf5877e13fa4d8de5caeb34aeb3bf5420
+  tag: v0.5.4
   specs:
-    ffi-icu (0.2.2)
+    ffi-icu (0.5.4)
+      bigdecimal (~> 3.1)
       ffi (~> 1.0, >= 1.0.9)
+      stringio (~> 3.0)
 
 GIT
   remote: https://github.com/shanti-uva/flare.git
@@ -146,10 +148,10 @@ GIT
 
 GIT
   remote: https://github.com/thl/complex_scripts.git
-  revision: c0481bdb8e353b82b950753e616a5737bf40a227
-  tag: v3.2.2
+  revision: c92e3f8640764fbda28c98403ce3047874e49433
+  tag: v3.2.3
   specs:
-    complex_scripts (3.2.2)
+    complex_scripts (3.2.3)
       hpricot
       rails (~> 7.1.0)
 
@@ -537,12 +539,12 @@ DEPENDENCIES
   bootstrap-sass
   capybara
   complex_dates (= 2.4.3)!
-  complex_scripts (= 3.2.2)!
+  complex_scripts (= 3.2.3)!
   debug
   delayed_job_active_record
   dictionary_to_terms (= 0.4.2)!
   dynamic_form
-  ffi-icu (= 0.2.2)!
+  ffi-icu (= 0.5.4)!
   flare (= 1.4.5)!
   hpricot!
   interface_utils (= 2.4.3)!
