@@ -102,6 +102,15 @@ GIT
       rails
 
 GIT
+  remote: https://github.com/shanti-uva/terms_engine.git
+  revision: 409023c4c139f99e1a81707b275b9e882ed7ad77
+  tag: v1.9.3
+  specs:
+    terms_engine (1.9.3)
+      ruby-openai
+      sprockets-rails
+
+GIT
   remote: https://github.com/thl/active_resource_extensions.git
   revision: 8f118635ae7eb02a420a804d1a656729071af859
   tag: v2.2.8
@@ -182,13 +191,6 @@ GIT
   revision: 1eb086570a56514348a35402df0199d7652fd169
   specs:
     hpricot (0.8.7)
-
-PATH
-  remote: ../engines/terms_engine
-  specs:
-    terms_engine (1.9.3)
-      ruby-openai
-      sprockets-rails
 
 GEM
   remote: https://rubygems.org/
