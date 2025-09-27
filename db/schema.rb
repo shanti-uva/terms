@@ -10,9 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2025_01_29_042615) do
+ActiveRecord::Schema[8.0].define(version: 2025_09_27_022900) do
   # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
+  enable_extension "pg_catalog.plpgsql"
 
   create_table "active_storage_attachments", force: :cascade do |t|
     t.string "name", null: false
@@ -601,6 +601,9 @@ ActiveRecord::Schema[7.1].define(version: 2025_01_29_042615) do
     t.string "identity_url"
     t.string "shibboleth_id"
     t.string "access_token"
+    t.string "password_digest"
+    t.index ["password_digest"], name: "index_users_on_password_digest"
+    t.index ["remember_token"], name: "index_users_on_remember_token"
   end
 
   create_table "web_pages", force: :cascade do |t|
