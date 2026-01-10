@@ -103,10 +103,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/terms_engine.git
-  revision: 6b9baa33f6c119658bb1e0319d96734f28cd1981
-  tag: v2.0.4
+  revision: 143ee67ad244780b92774d456be8d1544aca21f5
+  tag: v2.0.5
   specs:
-    terms_engine (2.0.4)
+    terms_engine (2.0.5)
       ruby-openai
       sprockets-rails
 
@@ -579,7 +579,7 @@ DEPENDENCIES
   shanti_integration (= 3.6.9)!
   spawnling
   subjects_integration (= 0.3.6)!
-  terms_engine (= 2.0.4)!
+  terms_engine (= 2.0.5)!
   tinymce-rails
   tzinfo-data
   universal_navigation (= 3.1.7)!
