@@ -61,10 +61,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/kmaps_engine.git
-  revision: 267cd854ce5654e481812de32fc7ad24c252703a
-  tag: v7.0.1
+  revision: 404dff1b0c0d20d55deb7415ff7659798f0159e6
+  tag: v7.0.2
   specs:
-    kmaps_engine (7.0.1)
+    kmaps_engine (7.0.2)
       annotate
       bootsnap
       delayed_job_active_record
@@ -289,7 +289,7 @@ GEM
     benchmark (0.5.0)
     bigdecimal (3.3.1)
     bindex (0.8.1)
-    bootsnap (1.20.1)
+    bootsnap (1.22.0)
       msgpack (~> 1.2)
     bootstrap-sass (3.4.1)
       autoprefixer-rails (>= 5.2.1)
@@ -410,7 +410,7 @@ GEM
       date
       stringio
     public_suffix (7.0.2)
-    puma (7.1.0)
+    puma (7.2.0)
       nio4r (~> 2.0)
     racc (1.8.1)
     rack (3.2.4)
@@ -563,7 +563,7 @@ DEPENDENCIES
   interface_utils (= 2.4.8)!
   jquery-rails
   jquery-ui-rails (= 7.0.0)!
-  kmaps_engine (= 7.0.1)!
+  kmaps_engine (= 7.0.2)!
   mms_integration (= 2.4.8)!
   newrelic_rpm
   pg (= 1.5.9)
