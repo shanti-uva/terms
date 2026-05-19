@@ -179,10 +179,10 @@ GIT
 
 GIT
   remote: https://github.com/thl/places_integration.git
-  revision: 6140765302bbd9bd4ea2592fa6e1856f08c56805
-  tag: v2.3.0
+  revision: 285f32d47c950447ce17ad60782ae37384712691
+  tag: v2.3.1
   specs:
-    places_integration (2.3.0)
+    places_integration (2.3.1)
       rails
 
 GIT
@@ -572,7 +572,7 @@ DEPENDENCIES
   mms_integration (= 2.4.9)!
   newrelic_rpm
   pg (= 1.5.9)
-  places_integration (= 2.3.0)!
+  places_integration (= 2.3.1)!
   rack-openid
   rails (~> 8.1)
   rails-observers!
