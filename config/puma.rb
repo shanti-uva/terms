@@ -28,9 +28,8 @@
 threads_count = ENV.fetch("RAILS_MAX_THREADS", 3)
 threads threads_count, threads_count
 
-environment ENV.fetch("RAILS_ENV", "production")
-
-if ENV["RAILS_ENV"] == "production"
+# environment ENV.fetch("RAILS_ENV", "production")
+if [InterfaceUtils::Server::NOD_DEV, InterfaceUtils::Server::NOD_PRD].include? InterfaceUtils::Server.environment #ENV["RAILS_ENV"] == "production"
   bind "unix:///var/apps/terms/shared/tmp/sockets/puma.sock"
   pidfile "/var/apps/terms/shared/tmp/pids/puma.pid"
 else
