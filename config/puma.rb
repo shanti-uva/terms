@@ -28,8 +28,16 @@
 threads_count = ENV.fetch("RAILS_MAX_THREADS", 3)
 threads threads_count, threads_count
 
-# environment ENV.fetch("RAILS_ENV", "production")
-if [InterfaceUtils::Server::NOD_DEV, InterfaceUtils::Server::NOD_PRD].include? InterfaceUtils::Server.environment #ENV["RAILS_ENV"] == "production"
+require "yaml"
+
+# Can't use InterfaceUtils::Server.environment
+settings_file = File.expand_path("settings.yml", __dir__)
+server_environment =
+  if File.exist?(settings_file)
+    (YAML.load_file(settings_file) || {}).fetch("server.environment", nil).to_s.strip.downcase
+  end
+
+if %w[nod-dev nod-prd].include?(server_environment)
   bind "unix:///var/apps/terms/shared/tmp/sockets/puma.sock"
   pidfile "/var/apps/terms/shared/tmp/pids/puma.pid"
 else
