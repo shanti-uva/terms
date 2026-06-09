@@ -55,7 +55,7 @@ Rails.application.configure do
     
   # Set host to be used by links generated in mailer templates.
   config.after_initialize do
-    uri = URI.parse(TermsResource.get_url)
+    uri = URI.parse(TermsIntegration::TermsResource.get_url)
     url_options = { host: uri.host, protocol: uri.scheme }
     path = uri.path.to_s.chomp("/")
     url_options[:script_name] = path if !path.blank?
