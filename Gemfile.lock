@@ -92,10 +92,10 @@ GIT
 
 GIT
   remote: https://github.com/shanti-uva/shanti_integration.git
-  revision: 9d4a1ce318bc07c29ad9a8960498f62c3303e1d1
-  tag: v3.7.1
+  revision: 6eb1fe9a8f3892fb2a9a8e35f9f400e5a1ac1d90
+  tag: v3.7.2
   specs:
-    shanti_integration (3.7.1)
+    shanti_integration (3.7.2)
       rails
 
 GIT
@@ -589,7 +589,7 @@ DEPENDENCIES
   sass-rails
   selenium-webdriver
   shakapacker (= 9.6.1)
-  shanti_integration (= 3.7.1)!
+  shanti_integration (= 3.7.2)!
   spawnling
   subjects_integration (= 0.3.8)!
   terms_engine (= 2.1.5)!
