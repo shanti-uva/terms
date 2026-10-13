@@ -13,6 +13,8 @@ gem 'rails', '~> 8.1'
 
 # Use SCSS for stylesheets
 gem 'sass-rails'
+# Sprockets uses the create_additions option removed in JSON 3.
+gem 'json', '< 3'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 #gem 'webpacker'
 gem 'shakapacker', '9.6.1' #'~> 6.5'   # or the latest 6.x you see on RubyGems
